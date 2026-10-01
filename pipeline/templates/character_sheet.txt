@@ -1,0 +1,8 @@
+Character model sheet of {name}, {style}.
+{description}
+Personality that must read in the face and posture: {personality}.
+Layout: one character only, full body turnaround - front view, 3/4 view, side profile, back view - in a single row, plus three facial expressions (neutral, panicked, delighted) as head close-ups on the right. Same outfit, hairstyle, colors and proportions in every view.
+Neutral relaxed A-pose, feet visible, consistent scale across views.
+Exaggerated cartoon proportions suited to squash-and-stretch animation: large expressive head and eyes, clear readable silhouette, bold shape language.
+Color palette: {palette}. Saturated, bright, comedic energy; avoid dull or muddy colors.
+Clean flat light-gray studio background, soft even front lighting, no cast background shadows, no text labels, no props, no other characters.

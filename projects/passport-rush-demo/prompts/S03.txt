@@ -1,0 +1,33 @@
+SCENE CONTEXT & STYLE
+On the highway the taxi squeezes between two trucks on two wheels and lands back on four once it is clear.
+Style: stylized 3D cartoon characters over painted watercolor backgrounds. Lighting: late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth. World physics: cartoon physics - exaggerated, bouncy, squash and stretch, but readable.
+- Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.
+- Golden-hour light in every shot.
+
+ACTIVE REFERENCES
+@taxi = Taxi (prop): the driver's old yellow taxi, a character of its own. Personality: jumpy, bouncy, like a horse to its rider
+@trucks = Trucks (prop): two big trucks that block the road
+@maya = Maya (character): main character, a girl late for her flight. Personality: frantic, determined, funny but still cool
+@driver = Driver (character): taxi driver. Personality: calm, very pleased with himself, reckless behind the wheel
+@highway = Highway (location): long highway from the airport to the city, no buildings nearby
+@previs = attached video reference. Follow ONLY its motion, timing, blocking and camera move. Ignore its gray untextured look - all appearance comes from the image references.
+Characters, environments and props 100% match the reference.
+
+SHOT STRUCTURE
+Single continuous shot, 4s.
+Camera: Follow the previs camera exactly.
+- 0-1s: Taxi approaches the narrow gap between the trucks.
+- 1-1.5s: Taxi tips onto its two left wheels.
+- 1.5-3s: Taxi squeezes through the gap, still on two wheels.
+- 3-4s: Only once fully clear of the trucks, it lands on all four wheels with a big squash and bounce.
+
+LOCKS & CONSTRAINTS
+- No music. SFX and ambience only.
+- No extra people, characters, text, logos or subtitles beyond the references.
+- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.
+- Keep one consistent art style for the whole shot; no switch to photorealism.
+- Maya and the Driver stay in their seats inside the taxi unless the beat says otherwise.
+- The taxi lands only after it has fully cleared both trucks.
+
+ANIMATION PRINCIPLES
+Apply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.

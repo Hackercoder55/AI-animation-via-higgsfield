@@ -1,0 +1,7 @@
+Prop design sheet of {name}: {style}.
+{description}
+Personality the design should express: {personality}.
+Single object in frame, shown in 3/4 front view (main) plus side view and back view, same scale, same colors and details in every view.
+Clean surfaces with clear readable shapes - light texture only, so it stays stable when animated over a painted background.
+Plain light-gray background, soft shadow under the object, even studio lighting, no text, no characters, no other objects.
+Color palette: {palette}.

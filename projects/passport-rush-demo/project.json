@@ -1,0 +1,183 @@
+{
+  "title": "Passport Rush Demo",
+  "aspect_ratio": "16:9",
+  "resolution": "1080p",
+  "fps": 24,
+  "variants_per_shot": 2,
+  "generate_sfx": true,
+  "higgsfield_folder_id": null,
+  "music": null,
+  "models": {
+    "image": "soul_2",
+    "image_edit": "nano_banana_pro",
+    "video": "seedance_2_5",
+    "video_previs": "seedance_2_5"
+  },
+  "style": {
+    "look": "stylized 3D cartoon characters over painted watercolor backgrounds",
+    "character_style": "stylized 3D cartoon character, soft clean shading, expressive face",
+    "background_style": "watercolor painting, soft washes, crisp shape edges",
+    "prop_style": "clean stylized 3D, light texture",
+    "lighting": "late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth",
+    "physics": "cartoon physics - exaggerated, bouncy, squash and stretch, but readable",
+    "palette": "saturated warm oranges and teals",
+    "rules": [
+      "Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.",
+      "Golden-hour light in every shot."
+    ]
+  },
+  "locks": [
+    "Maya and the Driver stay in their seats inside the taxi unless the beat says otherwise."
+  ],
+  "assets": {
+    "maya": {
+      "type": "character",
+      "name": "Maya",
+      "role": "main character, a girl late for her flight",
+      "personality": "frantic, determined, funny but still cool",
+      "description": "Young woman, bright ginger messy bun, big expressive eyes, oversized blue hoodie, short pleated skirt, chunky sneakers, over-ear headphones around her neck.",
+      "source_files": [
+        "characters/maya.png"
+      ],
+      "element_id": null,
+      "media_id": null,
+      "locked": false
+    },
+    "driver": {
+      "type": "character",
+      "name": "Driver",
+      "role": "taxi driver",
+      "personality": "calm, very pleased with himself, reckless behind the wheel",
+      "description": "Middle-aged man, round kind face, flat cap, huge bushy mustache, short-sleeve shirt.",
+      "source_files": [
+        "characters/driver.png"
+      ],
+      "element_id": null,
+      "media_id": null,
+      "locked": false
+    },
+    "taxi": {
+      "type": "prop",
+      "name": "Taxi",
+      "role": "the driver's old yellow taxi, a character of its own",
+      "personality": "jumpy, bouncy, like a horse to its rider",
+      "description": "Old rounded yellow taxi, checkered stripe, roof sign, slightly dented bumper.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false
+    },
+    "trucks": {
+      "type": "prop",
+      "name": "Trucks",
+      "role": "two big trucks that block the road",
+      "description": "Two boxy cargo trucks, one red one green.",
+      "style": "watercolor painting, soft washes",
+      "element_id": null,
+      "media_id": null,
+      "locked": false
+    },
+    "highway": {
+      "type": "location",
+      "name": "Highway",
+      "role": "long highway from the airport to the city, no buildings nearby",
+      "description": "Long multi-lane highway through dry golden fields, distant hills, far-away city skyline.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "route": "t2v",
+      "duration": 5,
+      "assets": [
+        "maya",
+        "highway"
+      ],
+      "context": "Maya bursts out of the airport doors onto the curb, realizes her passport is missing and panics.",
+      "camera": "Medium-wide, static, eye level.",
+      "beats": [
+        {
+          "t": "0-1.5s",
+          "action": "Maya runs out of the doors in a hurry."
+        },
+        {
+          "t": "1.5-3s",
+          "action": "She pats her pockets, anticipation pause, eyes go huge."
+        },
+        {
+          "t": "3-5s",
+          "action": "She spins around and frantically waves for a taxi off-screen."
+        }
+      ],
+      "sfx": "airport ambience, sliding doors, sneaker squeaks"
+    },
+    {
+      "id": "S02",
+      "route": "keyframe",
+      "duration": 5,
+      "assets": [
+        "maya",
+        "taxi"
+      ],
+      "context": "Inside the taxi back seat, Maya buckles two seat belts so they form an X over her chest.",
+      "camera": "Front-facing medium close-up from the dashboard.",
+      "beats": [
+        {
+          "t": "0-2s",
+          "action": "She pulls the left belt across and clicks it."
+        },
+        {
+          "t": "2-4s",
+          "action": "She pulls the right belt across, forming an X, clicks it."
+        },
+        {
+          "t": "4-5s",
+          "action": "Holds a tense determined pose, nodding."
+        }
+      ],
+      "locks": [
+        "Her headphones stay around her neck the whole shot."
+      ],
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S03",
+      "route": "previs",
+      "duration": 4,
+      "assets": [
+        "taxi",
+        "trucks",
+        "maya",
+        "driver",
+        "highway"
+      ],
+      "context": "On the highway the taxi squeezes between two trucks on two wheels and lands back on four once it is clear.",
+      "camera": "Follow the previs camera exactly.",
+      "beats": [
+        {
+          "t": "0-1s",
+          "action": "Taxi approaches the narrow gap between the trucks."
+        },
+        {
+          "t": "1-1.5s",
+          "action": "Taxi tips onto its two left wheels."
+        },
+        {
+          "t": "1.5-3s",
+          "action": "Taxi squeezes through the gap, still on two wheels."
+        },
+        {
+          "t": "3-4s",
+          "action": "Only once fully clear of the trucks, it lands on all four wheels with a big squash and bounce."
+        }
+      ],
+      "locks": [
+        "The taxi lands only after it has fully cleared both trucks."
+      ],
+      "previs_file": "previs/S03_gray.mp4",
+      "previs_media_id": null
+    }
+  ]
+}

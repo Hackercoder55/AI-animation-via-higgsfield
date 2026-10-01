@@ -1,0 +1,7 @@
+Background painting of {name}: {style}.
+{description}
+Lighting: {lighting}.
+Color palette: {palette}.
+Wide establishing view with clear readable depth - foreground, midground, background - and enough empty space for characters and vehicles to act in.
+No characters, no people, no vehicles unless described, no text, no signs with words, no logos.
+Painterly but clean: controlled washes and crisp edges where shapes meet, no muddy or dirty patches.

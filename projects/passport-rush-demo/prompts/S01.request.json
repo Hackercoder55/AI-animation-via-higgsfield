@@ -1,0 +1,10 @@
+{
+  "model": "seedance_2_5",
+  "prompt": "SCENE CONTEXT & STYLE\nMaya bursts out of the airport doors onto the curb, realizes her passport is missing and panics.\nStyle: stylized 3D cartoon characters over painted watercolor backgrounds. Lighting: late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth. World physics: cartoon physics - exaggerated, bouncy, squash and stretch, but readable.\n- Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.\n- Golden-hour light in every shot.\n\nACTIVE REFERENCES\n@maya = Maya (character): main character, a girl late for her flight. Personality: frantic, determined, funny but still cool\n@highway = Highway (location): long highway from the airport to the city, no buildings nearby\nCharacters, environments and props 100% match the reference.\n\nSHOT STRUCTURE\nSingle continuous shot, 5s.\nCamera: Medium-wide, static, eye level.\n- 0-1.5s: Maya runs out of the doors in a hurry.\n- 1.5-3s: She pats her pockets, anticipation pause, eyes go huge.\n- 3-5s: She spins around and frantically waves for a taxi off-screen.\nSound: airport ambience, sliding doors, sneaker squeaks\n\nLOCKS & CONSTRAINTS\n- No music. SFX and ambience only.\n- No extra people, characters, text, logos or subtitles beyond the references.\n- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.\n- Keep one consistent art style for the whole shot; no switch to photorealism.\n- Maya and the Driver stay in their seats inside the taxi unless the beat says otherwise.\n\nANIMATION PRINCIPLES\nApply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.\n",
+  "duration": 5,
+  "aspect_ratio": "16:9",
+  "count": 2,
+  "resolution": "1080p",
+  "generate_audio": true,
+  "mode": "t2v"
+}

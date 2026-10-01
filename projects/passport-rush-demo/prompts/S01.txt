@@ -1,0 +1,28 @@
+SCENE CONTEXT & STYLE
+Maya bursts out of the airport doors onto the curb, realizes her passport is missing and panics.
+Style: stylized 3D cartoon characters over painted watercolor backgrounds. Lighting: late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth. World physics: cartoon physics - exaggerated, bouncy, squash and stretch, but readable.
+- Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.
+- Golden-hour light in every shot.
+
+ACTIVE REFERENCES
+@maya = Maya (character): main character, a girl late for her flight. Personality: frantic, determined, funny but still cool
+@highway = Highway (location): long highway from the airport to the city, no buildings nearby
+Characters, environments and props 100% match the reference.
+
+SHOT STRUCTURE
+Single continuous shot, 5s.
+Camera: Medium-wide, static, eye level.
+- 0-1.5s: Maya runs out of the doors in a hurry.
+- 1.5-3s: She pats her pockets, anticipation pause, eyes go huge.
+- 3-5s: She spins around and frantically waves for a taxi off-screen.
+Sound: airport ambience, sliding doors, sneaker squeaks
+
+LOCKS & CONSTRAINTS
+- No music. SFX and ambience only.
+- No extra people, characters, text, logos or subtitles beyond the references.
+- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.
+- Keep one consistent art style for the whole shot; no switch to photorealism.
+- Maya and the Driver stay in their seats inside the taxi unless the beat says otherwise.
+
+ANIMATION PRINCIPLES
+Apply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.

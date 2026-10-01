@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+projects/*/takes/*
+projects/*/final/*
+projects/*/previs/*.mp4
+projects/*/previs/*.mov
+!projects/*/**/.gitkeep
+*.tmp

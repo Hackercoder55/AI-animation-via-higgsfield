@@ -1,0 +1,32 @@
+{
+  "title": "Untitled Film",
+  "aspect_ratio": "16:9",
+  "resolution": "1080p",
+  "fps": 24,
+  "variants_per_shot": 2,
+  "generate_sfx": true,
+  "higgsfield_folder_id": null,
+  "music": null,
+  "models": {
+    "image": "soul_2",
+    "image_edit": "nano_banana_pro",
+    "video": "seedance_2_5",
+    "video_previs": "seedance_2_5"
+  },
+  "style": {
+    "look": "stylized 3D cartoon characters over painted watercolor backgrounds",
+    "character_style": "stylized 3D cartoon character, soft clean shading, expressive face",
+    "background_style": "watercolor painting, soft washes, crisp shape edges",
+    "prop_style": "clean stylized 3D, light texture",
+    "lighting": "late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth",
+    "physics": "cartoon physics - exaggerated, bouncy, squash and stretch, but readable",
+    "palette": "saturated warm oranges and teals",
+    "rules": [
+      "Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.",
+      "Golden-hour light in every shot."
+    ]
+  },
+  "locks": [],
+  "assets": {},
+  "shots": []
+}

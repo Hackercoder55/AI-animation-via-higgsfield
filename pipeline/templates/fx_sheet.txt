@@ -1,0 +1,6 @@
+Effects design sheet of {name}: {style}.
+{description}
+Show the effect in 3 stages left to right - start, peak, dissipation - same scale, same color logic in every stage.
+Graphic, cartoony and readable; shapes exaggerated for comedy. Avoid literal objects that the words might suggest (e.g. "mushroom-shaped" must not produce mushrooms).
+Plain dark-gray background, no characters, no text.
+Color palette: {palette}.

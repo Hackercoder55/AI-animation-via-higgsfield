@@ -1,0 +1,29 @@
+SCENE CONTEXT & STYLE
+Inside the taxi back seat, Maya buckles two seat belts so they form an X over her chest.
+Style: stylized 3D cartoon characters over painted watercolor backgrounds. Lighting: late-afternoon golden hour, low warm sun, long harsh shadows, strong volume and depth. World physics: cartoon physics - exaggerated, bouncy, squash and stretch, but readable.
+- Characters and props stay clean stylized 3D; the painted watercolor texture lives only in the background.
+- Golden-hour light in every shot.
+
+ACTIVE REFERENCES
+@maya = Maya (character): main character, a girl late for her flight. Personality: frantic, determined, funny but still cool
+@taxi = Taxi (prop): the driver's old yellow taxi, a character of its own. Personality: jumpy, bouncy, like a horse to its rider
+@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.
+Characters, environments and props 100% match the reference.
+
+SHOT STRUCTURE
+Single continuous shot, 5s.
+Camera: Front-facing medium close-up from the dashboard.
+- 0-2s: She pulls the left belt across and clicks it.
+- 2-4s: She pulls the right belt across, forming an X, clicks it.
+- 4-5s: Holds a tense determined pose, nodding.
+
+LOCKS & CONSTRAINTS
+- No music. SFX and ambience only.
+- No extra people, characters, text, logos or subtitles beyond the references.
+- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.
+- Keep one consistent art style for the whole shot; no switch to photorealism.
+- Maya and the Driver stay in their seats inside the taxi unless the beat says otherwise.
+- Her headphones stay around her neck the whole shot.
+
+ANIMATION PRINCIPLES
+Apply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.
