@@ -6,3 +6,6 @@ projects/*/previs/*.mp4
 projects/*/previs/*.mov
 !projects/*/**/.gitkeep
 *.tmp
+projects/*/storyboard/*.jpg
+projects/*/storyboard/*.docx
+projects/*/characters/*.png

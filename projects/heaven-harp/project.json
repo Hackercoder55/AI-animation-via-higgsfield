@@ -1,0 +1,568 @@
+{
+  "title": "Heaven Harp",
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24,
+  "variants_per_shot": 2,
+  "generate_sfx": true,
+  "higgsfield_folder_id": null,
+  "music": null,
+  "models": {
+    "image": "nano_banana_pro",
+    "image_edit": "nano_banana_pro",
+    "video": "seedance_2_5",
+    "video_previs": "seedance_2_5"
+  },
+  "style": {
+    "look": "stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16",
+    "character_style": "stylized 3D animated feature film character render",
+    "background_style": "stylized 3D animated feature film background, soft volumetric light",
+    "prop_style": "stylized 3D, clean surfaces",
+    "lighting": "Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill",
+    "physics": "slightly exaggerated cartoon physics, readable comedic timing",
+    "palette": "Heaven: tangerine 60% / bright yellow 30% / turquoise 10%. Hospital: tangerine 60% / chartreuse 30% / turquoise-green 10%",
+    "rules": [
+      "The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.",
+      "The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).",
+      "Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post."
+    ]
+  },
+  "locks": [
+    "No spoken dialogue or narration audio - SFX and ambience only.",
+    "No subtitles or on-screen text."
+  ],
+  "assets": {
+    "narrator": {
+      "type": "character",
+      "name": "Narrator",
+      "role": "the new arrival, an atheist who just died in surgery",
+      "personality": "flustered, clumsy, guilty, then determined",
+      "description": "Young man, bright orange voluminous curly hair, dark auburn eyebrows, fair freckled skin, heterochromatic eyes (blue viewer-left, green viewer-right), lean build. Pale blue hospital gown, barefoot.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "source_files": [
+        "characters/narrator.png"
+      ],
+      "candidate_jobs": [
+        "2fa48e98-b50e-4165-9f0e-ba2665d38aa6",
+        "e44f84de-52bb-4a38-8cfe-e77595fb8827"
+      ]
+    },
+    "harpist": {
+      "type": "character",
+      "name": "Harpist angel",
+      "role": "the angel whose harp he breaks; his calm guide",
+      "personality": "calm, composed, quietly hurt",
+      "description": "Slender young woman angel, auburn hair coiled at the nape, calm grey eyes, tall cream-grey wings, floor-length pale oatmeal linen robe with thin gold cord, bare feet.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "9c846390-237d-49b0-bb7e-1b71d17a87ba",
+        "4792cecd-6734-45e3-a129-413fafdea8f9"
+      ]
+    },
+    "family": {
+      "type": "character",
+      "name": "Arriving family",
+      "role": "a mother, father and their daughter arriving at the gate",
+      "personality": "curious, judgmental in a whisper",
+      "description": "Mother and father in their thirties in navy and warm brown everyday clothes; daughter about seven, two dark braids with yellow ties, red cardigan over pale yellow dress, grey canvas shoes.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "7b38cef7-1e4e-425a-a8e2-b772196bf68f",
+        "66315a6b-e363-44d5-962b-c0376a4d5a25"
+      ]
+    },
+    "surgeon": {
+      "type": "character",
+      "name": "Surgeon",
+      "role": "his surgeon in the recovery room",
+      "personality": "warm, then confused",
+      "description": "Woman in her forties, dark hair under a teal scrub cap, round glasses, teal scrubs, mask at her chin, hospital badge, clipboard.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "24d5a628-6f46-4012-b1b7-4ae4660f6626"
+      ]
+    },
+    "harp": {
+      "type": "prop",
+      "name": "Harp",
+      "role": "the ONLY harp at Heaven's gate",
+      "personality": "",
+      "description": "Ornate golden floor harp, carved pale-gold column, glowing silver strings, small brass pedals.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "c2102e2d-5e77-4ecc-8e5e-8021152b73c8"
+      ]
+    },
+    "heaven_gate": {
+      "type": "location",
+      "name": "Heaven's gate",
+      "role": "pale stone landing on a cloud bank before an open golden gate",
+      "personality": "",
+      "description": "Pale stone paving on a cloud bank, tall filigreed pale gold gate standing open, mist, bright sky, harp on a dais, a crowd of angels in ivory/dove-grey robes and new arrivals in muted street clothes.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "87a0df93-99f9-4801-9a82-15984e863dd4"
+      ]
+    },
+    "hospital": {
+      "type": "location",
+      "name": "Recovery bay",
+      "role": "post-op recovery bay",
+      "personality": "",
+      "description": "Bed with chrome rails, cardiac monitor, IV stand, pale green curtain, blind-striped light on pale blue walls.",
+      "element_id": null,
+      "media_id": null,
+      "locked": false,
+      "candidate_jobs": [
+        "bd6c5c6e-cf05-445f-bf20-0bab50f60be0"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "route": "keyframe",
+      "duration": 5,
+      "assets": [
+        "narrator",
+        "heaven_gate"
+      ],
+      "narration": "I died an atheist during heart surgery and woke up outside Heaven's gate.",
+      "context": "The narrator stands barefoot in a pale blue hospital gown on the pale stone landing before the open golden gate, staring up in disbelief; a calm row of angels stands just inside the gate, the harp small on its dais to one side.",
+      "camera": "Wide shot, low angle, slow tilt up from his bare feet to his face.",
+      "beats": [
+        {
+          "t": "0-2s",
+          "action": "Tilt up from his bare feet to his astonished face."
+        },
+        {
+          "t": "2-5s",
+          "action": "He clutches the open back of his gown, eyes darting over the gate and the silent angels."
+        }
+      ],
+      "sfx": "soft heavenly ambience, wind, distant harp music",
+      "storyboard": "storyboard/beat01.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S02",
+      "route": "keyframe",
+      "duration": 5,
+      "assets": [
+        "narrator",
+        "harpist",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "I accidentally bumped into the angel playing the harp. CRASH! The music stopped.",
+      "context": "The narrator trips on the hem of his gown and crashes chest-first into the tall golden harp while the harpist angel falls backward off her stool.",
+      "camera": "Two shot, eye level, handheld.",
+      "beats": [
+        {
+          "t": "0-1.5s",
+          "action": "He stumbles forward over his gown hem, arms flailing."
+        },
+        {
+          "t": "1.5-3s",
+          "action": "He slams chest-first into the harp; three strings spring loose."
+        },
+        {
+          "t": "3-5s",
+          "action": "The angel tumbles backward off her stool, wings flaring; the music stops dead."
+        }
+      ],
+      "sfx": "harp music, crash, twang of strings, sudden silence",
+      "storyboard": "storyboard/beat02.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S03",
+      "route": "keyframe",
+      "duration": 9,
+      "assets": [
+        "narrator",
+        "harp",
+        "harpist",
+        "heaven_gate"
+      ],
+      "narration": "Three strings hung loose. I lifted the harp by its column, and a piece snapped off in my hand. CRACK! The base split.",
+      "context": "Half-crouched over the leaning harp, the narrator grabs its carved column to lift it; a piece of the column snaps off in his hands and the base splits open on the stone.",
+      "camera": "Medium shot, high angle, slow push in.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "Three loose strings swing; he grips the column with both hands and starts lifting."
+        },
+        {
+          "t": "3-5s",
+          "action": "CRACK - a chunk of the column snaps off in his grip."
+        },
+        {
+          "t": "5-7s",
+          "action": "The base splits and the harp settles crooked."
+        },
+        {
+          "t": "7-9s",
+          "action": "He freezes mid-crouch, horrified, staring at the broken piece; the angel sits stunned behind him."
+        }
+      ],
+      "sfx": "wood creak, loud crack, splintering",
+      "storyboard": "storyboard/beat03.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S04",
+      "route": "keyframe",
+      "duration": 7,
+      "assets": [
+        "narrator",
+        "harpist",
+        "family",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "Every angel and new arrival turned toward me. The harpist stared at what was left of her instrument.",
+      "context": "Across the landing every angel and new arrival turns to stare at the narrator, who stands small by the dais hugging the splintered column; the harpist kneels by the wrecked harp.",
+      "camera": "Wide shot, eye level, slow pull out.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "Heads turn in a ripple toward him across the crowd."
+        },
+        {
+          "t": "3-7s",
+          "action": "The harpist kneels over the shattered harp, staring at it; he hugs the column to his chest, eyes darting."
+        }
+      ],
+      "sfx": "crowd murmur stopping, silence",
+      "storyboard": "storyboard/beat04.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S05",
+      "route": "keyframe",
+      "duration": 8,
+      "assets": [
+        "harpist",
+        "narrator",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "\"That was the ONLY harp at Heaven's gate.\" I wanted to disappear. How was I supposed to make this right?",
+      "context": "Kneeling beside the shattered harp, the harpist lifts her face and speaks; the narrator shrinks back clutching the broken column like a shield under the disappointed stares of the angels.",
+      "camera": "Close-up, low angle, static.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "The harpist, hands hovering over the wreck, lifts her face and speaks."
+        },
+        {
+          "t": "3-8s",
+          "action": "Cut of attention to him shrinking back, the column clutched to his chest."
+        }
+      ],
+      "sfx": "quiet ambience",
+      "storyboard": "storyboard/beat05.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S06",
+      "route": "keyframe",
+      "duration": 7,
+      "assets": [
+        "narrator",
+        "heaven_gate"
+      ],
+      "narration": "I had spent my life insisting this place didn't exist. Now they probably wished I didn't exist.",
+      "context": "The narrator looks down at his bare feet on the glowing stone, cheeks red with embarrassment, avoiding the stern gaze of the tall angels around him.",
+      "camera": "Medium close-up, high angle looking down on him.",
+      "beats": [
+        {
+          "t": "0-4s",
+          "action": "He bows his head, one toe scuffing the stone, ears flushing red."
+        },
+        {
+          "t": "4-7s",
+          "action": "The angels stand motionless above him, gazes angled down at him."
+        }
+      ],
+      "sfx": "soft wind",
+      "storyboard": "storyboard/beat06.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S07",
+      "route": "keyframe",
+      "duration": 13,
+      "assets": [
+        "harpist",
+        "narrator",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "\"Can't someone here fix it?\" The harpist pointed to spare strings. \"That's not how things work here. Only the person who broke it can repair it. I can guide you, but I can't touch it.\"",
+      "context": "A heap of glowing silver strings on a cloud pedestal in the foreground; the harpist stands by her broken harp, hands behind her back, nodding toward the strings as she speaks to the narrator.",
+      "camera": "Two shot, eye level, rack focus from the strings to her face.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "He asks, looking hopeful, gesturing at the harp."
+        },
+        {
+          "t": "3-6s",
+          "action": "She nods toward the pedestal of glowing strings."
+        },
+        {
+          "t": "6-13s",
+          "action": "Focus shifts to her calm face as she explains, hands firmly behind her back."
+        }
+      ],
+      "sfx": "gentle hum of the glowing strings",
+      "storyboard": "storyboard/beat07.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S08",
+      "route": "keyframe",
+      "duration": 10,
+      "assets": [
+        "family",
+        "narrator",
+        "heaven_gate"
+      ],
+      "narration": "A family reached the gate. Their daughter looked at the silent harp. \"Why isn't anyone playing?\" The answer traveled fast. \"The new arrival broke it.\"",
+      "context": "A family arrives at the gate; their little daughter points across the paving at the silent harp while her parents and nearby souls whisper and shake their heads at the narrator.",
+      "camera": "Medium shot, low angle, push in.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "The family steps through the gate."
+        },
+        {
+          "t": "3-6s",
+          "action": "The daughter points at the harp, curious."
+        },
+        {
+          "t": "6-10s",
+          "action": "Whispers pass down the line, heads shaking, glances toward the narrator far away by the dais."
+        }
+      ],
+      "sfx": "whispers, footsteps",
+      "storyboard": "storyboard/beat08.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S09",
+      "route": "keyframe",
+      "duration": 10,
+      "assets": [
+        "narrator",
+        "harp",
+        "harpist",
+        "heaven_gate"
+      ],
+      "narration": "Everyone watched as I threaded a string where the harpist pointed. PING! It whipped my nose. My gown caught a pedal, and I landed on my face.",
+      "context": "Sitting cross-legged at the broken harp, the narrator threads a glowing string where the harpist points; it snaps back across his nose and he topples, his gown catching a pedal, landing flat on his face.",
+      "camera": "Close-up, eye level, handheld.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "He carefully threads the glowing string at the tuning pin."
+        },
+        {
+          "t": "3-4.5s",
+          "action": "PING - the string whips across his nose; head snaps back."
+        },
+        {
+          "t": "4.5-7s",
+          "action": "His gown snags on a pedal as he flails."
+        },
+        {
+          "t": "7-10s",
+          "action": "He falls flat on his face on the stone."
+        }
+      ],
+      "sfx": "string ping, thud, crowd gasp",
+      "storyboard": "storyboard/beat09.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S10",
+      "route": "keyframe",
+      "duration": 8,
+      "assets": [
+        "narrator",
+        "harp",
+        "harpist",
+        "heaven_gate"
+      ],
+      "narration": "\"Careful with the column.\" After a few tries, I secured ONE string. Two remained. Then the gates began to FADE.",
+      "context": "Sitting cross-legged, the narrator carefully ties one glowing string to its tuning pin; behind him the golden gate turns translucent and starts to fade.",
+      "camera": "Medium shot, eye level, rack focus from his hands to the fading gate.",
+      "beats": [
+        {
+          "t": "0-4s",
+          "action": "Concentrating, tongue in the corner of his mouth, he secures one string; small relieved breath."
+        },
+        {
+          "t": "4-8s",
+          "action": "Focus pulls back to the gate dissolving into bright mist."
+        }
+      ],
+      "sfx": "soft magical shimmer",
+      "storyboard": "storyboard/beat10.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S11",
+      "route": "keyframe",
+      "duration": 7,
+      "assets": [
+        "narrator",
+        "harpist",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "The harpist looked up. \"Your heart started again.\" I stared at the broken harp. \"But I'm not finished.\"",
+      "context": "Kneeling at the dais, the narrator reaches desperately toward the cracked harp as his hands begin to glow and dissolve into particles of light; the harpist looks down at him.",
+      "camera": "Close-up, high angle, hold.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "The harpist looks up, then down at him."
+        },
+        {
+          "t": "3-7s",
+          "action": "He reaches for the harp; his fingers break into drifting motes of light."
+        }
+      ],
+      "sfx": "rising shimmer, faint heartbeat",
+      "storyboard": "storyboard/beat11.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S12",
+      "route": "keyframe",
+      "duration": 6,
+      "assets": [
+        "harpist",
+        "narrator",
+        "harp",
+        "heaven_gate"
+      ],
+      "narration": "\"Then Heaven stays quiet until you return.\" One by one, the angels shook their heads.",
+      "context": "The harpist folds her arms and sighs over the fading narrator, who is half light; the angels behind turn their backs on him one by one, shaking their heads.",
+      "camera": "Wide shot, eye level, pull out.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "She folds her arms and sighs."
+        },
+        {
+          "t": "3-6s",
+          "action": "Angels turn away one after another, heads shaking, as he fades to light."
+        }
+      ],
+      "sfx": "heartbeat getting louder",
+      "storyboard": "storyboard/beat12.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S13",
+      "route": "keyframe",
+      "duration": 6,
+      "assets": [
+        "narrator",
+        "surgeon",
+        "hospital"
+      ],
+      "narration": "BEEP. BEEP. \"SORRY!\" I woke in recovery. My surgeon smiled. \"The operation was successful.\"",
+      "context": "The narrator gasps and jolts upright in the hospital bed, pulling his oxygen mask down; the surgeon at the foot of the bed holds a clipboard and smiles.",
+      "camera": "Two shot, eye level, static.",
+      "beats": [
+        {
+          "t": "0-2s",
+          "action": "He snaps upright with a gasp, yanking the oxygen mask to his chin, IV line swinging."
+        },
+        {
+          "t": "2-6s",
+          "action": "The surgeon smiles warmly and nods at him."
+        }
+      ],
+      "sfx": "heart monitor beeps, gasp",
+      "storyboard": "storyboard/beat13.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S14",
+      "route": "keyframe",
+      "duration": 7,
+      "assets": [
+        "narrator",
+        "surgeon",
+        "hospital"
+      ],
+      "narration": "I reached for my phone. \"Calling your family?\" \"I'm finding someone who can teach me harp repair.\"",
+      "context": "Still hooked up to an IV, the narrator types feverishly on his smartphone while the surgeon at the foot of the bed watches, confused.",
+      "camera": "Medium on the surgeon over his blurred shoulder and phone glow, locked off.",
+      "beats": [
+        {
+          "t": "0-3s",
+          "action": "He grabs his phone and starts typing fast."
+        },
+        {
+          "t": "3-7s",
+          "action": "The surgeon tilts her head, one brow up, clipboard lowering."
+        }
+      ],
+      "sfx": "phone taps, monitor beeps",
+      "storyboard": "storyboard/beat14.jpg",
+      "keyframe_media_id": null
+    },
+    {
+      "id": "S15",
+      "route": "keyframe",
+      "duration": 8,
+      "assets": [
+        "narrator",
+        "hospital"
+      ],
+      "narration": "I had a second chance at life and a broken harp waiting for me at the end of it.",
+      "context": "In the sunlit recovery bed the narrator smiles determinedly at his phone screen, which shows search results for instrument repair classes.",
+      "camera": "Medium close-up, slow push in, hold.",
+      "beats": [
+        {
+          "t": "0-4s",
+          "action": "His eyes scan the phone screen, then steady."
+        },
+        {
+          "t": "4-8s",
+          "action": "A small determined smile; he settles back into the pillow."
+        }
+      ],
+      "sfx": "soft warm room tone",
+      "storyboard": "storyboard/beat15.jpg",
+      "keyframe_media_id": null
+    }
+  ],
+  "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
+  "reference_media": {
+    "ref_narrator": "4a2cd424-a7ba-4166-a093-bdfe5ef95949",
+    "ref_angel_harp": "3ede8263-a788-4756-ba45-2dfe570f3412",
+    "ref_family": "d54b9203-3aa3-4e1a-a8aa-357f1670e1cf",
+    "ref_hospital": "bc79b89c-e0c6-4797-a8b0-75be2c77ab84",
+    "ref_gate": "260b2f59-ecd0-4fa2-8e65-6a493e6e1b57"
+  }
+}
