@@ -113,7 +113,7 @@ def validate(proj: dict, pdir: Path) -> tuple[list[str], list[str]]:
         for f in a.get("source_files", []):
             if not (pdir / f).exists():
                 warnings.append(f"asset {aid}: source file missing: {f}")
-        if a.get("locked") and not (a.get("element_id") or a.get("media_id")):
+        if a.get("locked") and not (a.get("element_id") or a.get("media_id") or a.get("media_ids")):
             errors.append(f"asset {aid}: locked but has no element_id or media_id")
 
     seen = set()
@@ -223,6 +223,11 @@ def build_shot_prompt(proj: dict, shot: dict) -> str:
     out.append("")
     out.append("LOCKS & CONSTRAINTS")
     locks = list(DEFAULT_LOCKS) + proj.get("locks", []) + shot.get("locks", [])
+    for ref in shot.get("assets", []):
+        a = assets.get(ref, {})
+        if a.get("age"):
+            locks.append(f"{a.get('name', ref)} is {a['age']} in every frame - same age, face and "
+                         "body proportions as the reference; never younger or older.")
     for lock in dict.fromkeys(locks):
         out.append(f"- {lock}")
 
@@ -247,8 +252,10 @@ def build_request(proj: dict, shot: dict, prompt: str) -> dict:
     for ref in shot.get("assets", []):
         a = assets.get(ref, {})
         # element_id references are injected by the backend from the prompt.
-        if a.get("media_id") and not a.get("element_id"):
-            medias.append({"value": a["media_id"], "role": "image_references", "_label": f"@{ref}"})
+        if a.get("element_id"):
+            continue
+        for mid in a.get("media_ids") or ([a["media_id"]] if a.get("media_id") else []):
+            medias.append({"value": mid, "role": "image_references", "_label": f"@{ref}"})
     for mid in shot.get("extra_reference_media_ids", []):
         medias.append({"value": mid, "role": "image_references", "_label": "@extra"})
     if route == "previs" and shot.get("previs_media_id"):
