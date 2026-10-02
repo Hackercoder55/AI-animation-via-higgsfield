@@ -801,7 +801,19 @@
           "review": "ends on old S14 frame with duplicate narrator (over-the-shoulder double) - redo after new S14 keyframe"
         }
       ],
-      "beats_synced_to_vo": true
+      "beats_synced_to_vo": true,
+      "takes": [
+        {
+          "n": 1,
+          "job_id": "5f9b4c56-f646-49b7-ace1-ee9c4fe56b04",
+          "resolution": "720p"
+        },
+        {
+          "n": 2,
+          "job_id": "23aa5971-6b99-45c3-bfe5-12457582e982",
+          "resolution": "720p"
+        }
+      ]
     },
     {
       "id": "S14",
@@ -843,7 +855,19 @@
       "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246",
       "vo_duration": 5.25,
       "lighting": "mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill",
-      "beats_synced_to_vo": true
+      "beats_synced_to_vo": true,
+      "takes": [
+        {
+          "n": 1,
+          "job_id": "18f604c0-f2d4-49a3-805e-2b9dafb31120",
+          "resolution": "720p"
+        },
+        {
+          "n": 2,
+          "job_id": "a921f1a8-5c33-4e3c-a802-47bbb73d6d36",
+          "resolution": "720p"
+        }
+      ]
     },
     {
       "id": "S15",
