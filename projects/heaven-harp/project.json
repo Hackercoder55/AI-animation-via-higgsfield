@@ -189,7 +189,8 @@
           "job_id": "ae65d79e-e82a-4384-8ca8-c75b4c2e537c",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S02",
@@ -244,7 +245,8 @@
           "job_id": "23cb3cb7-b1b8-4c10-9da7-ae1949926b9d",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S03",
@@ -297,7 +299,8 @@
           "job_id": "f322873d-8d3b-446b-a2cb-2fa0b95c3352",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S04",
@@ -340,7 +343,8 @@
           "resolution": "720p"
         }
       ],
-      "note": "only 1 of 2 variants was returned by the API; generate a 2nd if take 1 fails review"
+      "note": "only 1 of 2 variants was returned by the API; generate a 2nd if take 1 fails review",
+      "approved_take": 1
     },
     {
       "id": "S05",
@@ -378,14 +382,16 @@
         {
           "n": 1,
           "job_id": "0ede8fb7-676e-4646-994c-dbaeb097a459",
-          "resolution": "720p"
+          "resolution": "720p",
+          "status": "failed"
         },
         {
           "n": 2,
           "job_id": "6d4dc424-d36e-47eb-8713-208fc0b70380",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S06",
@@ -429,7 +435,8 @@
           "job_id": "76810c08-1049-42c5-822e-314ec9738d50",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S07",
@@ -483,7 +490,8 @@
           "job_id": "c13d5091-507d-4193-ba54-fe69d4b12de6",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S08",
@@ -541,7 +549,8 @@
           "job_id": "6fe66e21-ab72-4d74-8ea4-51980e11a5e6",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S09",
@@ -601,7 +610,8 @@
           "job_id": "a60b201d-dd4d-405e-8b01-1f0bd45554e5",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S10",
@@ -651,7 +661,8 @@
           "job_id": "ab009b53-70e9-4d9d-b857-ec7540a887b7",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S11",
@@ -705,7 +716,8 @@
           "job_id": "93f045f9-b6e8-404e-b02e-b832ab8e526c",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S12",
@@ -751,7 +763,8 @@
           "job_id": "b8068a09-24dc-4d50-9bb2-9127bac52a2e",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 2
     },
     {
       "id": "S13",
@@ -813,7 +826,8 @@
           "job_id": "23aa5971-6b99-45c3-bfe5-12457582e982",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S14",
@@ -867,7 +881,8 @@
           "job_id": "a921f1a8-5c33-4e3c-a802-47bbb73d6d36",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     },
     {
       "id": "S15",
@@ -915,7 +930,8 @@
           "job_id": "afdde11e-a871-4e92-b881-41b2af73ebb2",
           "resolution": "720p"
         }
-      ]
+      ],
+      "approved_take": 1
     }
   ],
   "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
@@ -936,5 +952,18 @@
   "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked",
   "continuous": true,
   "xfade": 0.25,
-  "vo_offset": 0.3
+  "vo_offset": 0.3,
+  "final": {
+    "v1_720p": {
+      "media_id": "9490e61d-1f60-4081-8131-86bcac15fb64",
+      "duration": 106.1,
+      "loudness_lufs": -14.1,
+      "subtitles": 98
+    },
+    "v1_1080p_upscale_job": "eefc07b4-b7f1-4052-807f-f949747dd8b2",
+    "known_issues": [
+      "subtitle chunks can span two shots",
+      "subtitle words come from Whisper, may mishear (harp/heart)"
+    ]
+  }
 }
