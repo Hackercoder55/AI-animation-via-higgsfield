@@ -1,0 +1,112 @@
+{
+ "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3IONVXBVgcI0lK1OKjd41czEVtU/",
+ "lead_in": 0.2,
+ "pre_roll": 0.15,
+ "tail": 0.8,
+ "flash_before": [
+  "S13"
+ ],
+ "takes": {
+  "S01": "hf_20261002_005225_71f9a4a3-45b1-48dd-b0b7-69c563dd6754.mp4",
+  "S02": "hf_20261002_005227_23cb3cb7-b1b8-4c10-9da7-ae1949926b9d.mp4",
+  "S03": "hf_20261002_005230_f322873d-8d3b-446b-a2cb-2fa0b95c3352.mp4",
+  "S04": "hf_20261002_005232_ba2131e4-d466-45a4-a028-cf280eae8bc2.mp4",
+  "S05": "hf_20261002_005234_6d4dc424-d36e-47eb-8713-208fc0b70380.mp4",
+  "S06": "hf_20261002_005553_1245de43-89b8-4ec8-8fa0-bfca36bb8db3.mp4",
+  "S07": "hf_20261002_005556_c13d5091-507d-4193-ba54-fe69d4b12de6.mp4",
+  "S08": "hf_20261002_005559_a37a8fbb-8961-4a35-a681-e307cdbaf845.mp4",
+  "S09": "hf_20261002_005602_9e5d205b-eae2-4f3f-9a0c-c1e8596bcca6.mp4",
+  "S10": "hf_20261002_005604_ab009b53-70e9-4d9d-b857-ec7540a887b7.mp4",
+  "S11": "hf_20261002_005606_93f045f9-b6e8-404e-b02e-b832ab8e526c.mp4",
+  "S12": "hf_20261002_005609_b8068a09-24dc-4d50-9bb2-9127bac52a2e.mp4",
+  "S13": "hf_20261002_022608_0f9edaee-f528-4cb6-8291-f8ce134fd75e.mp4",
+  "S14": "hf_20261002_010035_18f604c0-f2d4-49a3-805e-2b9dafb31120.mp4",
+  "S15": "hf_20261002_005639_873390b4-3b81-4888-83b1-80285398ab36.mp4"
+ },
+ "chunks": [
+  {
+   "url": "hf_20261002_012648_bf8ee779-5af1-4b4a-95a1-96bb353d1e59.wav",
+   "gap_before": 0,
+   "shots": [
+    [
+     "S01",
+     "I died an atheist during heart surgery and woke up outside Heaven's gate."
+    ],
+    [
+     "S02",
+     "I accidentally bumped into the angel playing the harp. CRASH! The music stopped."
+    ],
+    [
+     "S03",
+     "Three strings hung loose. I lifted the harp by its column, and a piece snapped off in my hand. CRACK! The base split."
+    ],
+    [
+     "S04",
+     "Every angel and new arrival turned toward me. The harpist stared at what was left of her instrument."
+    ],
+    [
+     "S05",
+     "That was the ONLY harp at Heaven's gate. I wanted to disappear. How was I supposed to make this right?"
+    ],
+    [
+     "S06",
+     "I had spent my life insisting this place didn't exist. Now they probably wished I didn't exist."
+    ]
+   ]
+  },
+  {
+   "url": "hf_20261002_012648_874f7b1c-265a-467c-a700-12dae8789507.wav",
+   "gap_before": 0.2,
+   "shots": [
+    [
+     "S07",
+     "Can't someone here fix it? The harpist pointed to spare strings. That's not how things work here. Only the person who broke it can repair it. I can guide you, but I can't touch it."
+    ],
+    [
+     "S08",
+     "A family reached the gate. Their daughter looked at the silent harp. Why isn't anyone playing? The answer traveled fast. The new arrival broke it."
+    ],
+    [
+     "S09",
+     "Everyone watched as I threaded a string where the harpist pointed. PING! It whipped my nose. My gown caught a pedal, and I landed on my face."
+    ]
+   ]
+  },
+  {
+   "url": "hf_20261002_012648_d8a9547e-40c6-4c30-a7b2-77f9524f98a7.wav",
+   "gap_before": 0.2,
+   "shots": [
+    [
+     "S10",
+     "Careful with the column. After a few tries, I secured ONE string. Two remained. Then the gates began to FADE."
+    ],
+    [
+     "S11",
+     "The harpist looked up. Your heart started again. I stared at the broken harp. But I'm not finished."
+    ],
+    [
+     "S12",
+     "Then Heaven stays quiet until you return. One by one, the angels shook their heads."
+    ]
+   ]
+  },
+  {
+   "url": "hf_20261002_012648_69943194-7189-4a44-a7d9-038822231341.wav",
+   "gap_before": 0.6,
+   "shots": [
+    [
+     "S13",
+     "SORRY! I woke in recovery. My surgeon smiled. The operation was successful."
+    ],
+    [
+     "S14",
+     "I reached for my phone. Calling your family? I'm finding someone who can teach me harp repair."
+    ],
+    [
+     "S15",
+     "I had a second chance at life and a broken harp waiting for me at the end of it."
+    ]
+   ]
+  }
+ ]
+}

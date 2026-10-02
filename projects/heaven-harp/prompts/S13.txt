@@ -31,6 +31,7 @@ LOCKS & CONSTRAINTS
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
 - Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
+- The Surgeon wears her teal scrub cap over her hair in EVERY frame from the first frame to the last - it never appears, disappears, slides or changes color. Her hair is never uncovered.
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 - Surgeon is a woman in her mid-forties in every frame - same age, face and body proportions as the reference; never younger or older.
 
