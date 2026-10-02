@@ -934,7 +934,7 @@
       "approved_take": 1
     }
   ],
-  "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
+  "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync)",
   "reference_media": {
     "ref_narrator": "4a2cd424-a7ba-4166-a093-bdfe5ef95949",
     "ref_angel_harp": "3ede8263-a788-4756-ba45-2dfe570f3412",
@@ -947,7 +947,11 @@
     "voice_id": "7fdd61c6-a1fb-4ecc-9840-29214601576e",
     "voice_type": "element",
     "model": "seed_audio",
-    "source": "channel sample I_Could_See_It_In_His_Eyes_.mp3"
+    "source": "channel sample I_Could_See_It_In_His_Eyes_.mp3",
+    "continuous_takes": [
+      "1c504e29-7eb6-4a78-bfd6-07ada6a3dc85",
+      "071f2806-2e5a-4d8e-bc6b-14de68e0d75c"
+    ]
   },
   "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked",
   "continuous": true,
@@ -965,5 +969,12 @@
       "subtitle chunks can span two shots",
       "subtitle words come from Whisper, may mishear (harp/heart)"
     ]
+  },
+  "subtitles": false,
+  "edit_v2": {
+    "subtitles": false,
+    "camera": "slow push/pull on every shot",
+    "transitions": "whip-pan (smoothleft/right + blur) 0.35s, fadewhite 0.8s into hospital",
+    "media_id": "e2fff66b-6a68-4c2a-8b07-ac23f33b738c"
   }
 }

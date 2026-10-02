@@ -130,7 +130,7 @@ for k in range(1, len(parts)):
     vf.append(f"{vl}[{k}:v]xfade=transition=fade:duration={x:.3f}:offset={acc - x:.3f}[v{k}]")
     af.append(f"{al}[{k}:a]acrossfade=d={x:.3f}[a{k}]")
     vl, al, acc = f"[v{k}]", f"[a{k}]", acc + parts[k][2] - x
-vf.append(f"{vl}subtitles=subs.ass[vout]")
+vf.append(f"{vl}subtitles=subs.ass[vout]" if cfg.get("subtitles", True) else f"{vl}null[vout]")
 af.append(f"{al}loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
 cmd += ["-filter_complex", ";".join(vf + af), "-map", "[vout]", "-map", "[aout]",
         "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
