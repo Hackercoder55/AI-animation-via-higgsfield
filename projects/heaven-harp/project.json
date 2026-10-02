@@ -173,7 +173,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "bc278252-d466-4836-a606-dca8495e6f52"
-      ]
+      ],
+      "vo_job": "d13d6f39-d7bd-43ba-95e1-510d5be11296"
     },
     {
       "id": "S02",
@@ -207,7 +208,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "e661ac85-0a63-4343-8e72-1e6f7ca42b85"
-      ]
+      ],
+      "vo_job": "839ac6a1-22fc-46bd-866e-52fe45ce2d22"
     },
     {
       "id": "S03",
@@ -245,7 +247,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "ce229d8d-cae9-46f4-a322-f8337566820d"
-      ]
+      ],
+      "vo_job": "423976c0-863b-462c-b6a4-d5f84a0ef338"
     },
     {
       "id": "S04",
@@ -277,7 +280,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "b9991ead-6c1f-463d-b3d5-01a469100426"
-      ]
+      ],
+      "vo_job": "5f563a83-a6ef-490a-8315-a2db7f3c5c65"
     },
     {
       "id": "S05",
@@ -307,7 +311,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "df0786b0-8056-48b8-9338-cc9f2a9f8aae"
-      ]
+      ],
+      "vo_job": "24d2194c-8fe5-4125-94d0-aa3fd974f6ac"
     },
     {
       "id": "S06",
@@ -335,7 +340,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "7368c7dd-e222-4e38-84da-a19119c39dac"
-      ]
+      ],
+      "vo_job": "ac731a97-7277-470a-b059-bb8cd984a56d"
     },
     {
       "id": "S07",
@@ -369,7 +375,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "6af40443-8322-4ec1-bc03-4c7d4e7db9a9"
-      ]
+      ],
+      "vo_job": "90128da3-f54e-45f2-9608-742222303e10"
     },
     {
       "id": "S08",
@@ -403,7 +410,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "e9c2b26e-8598-4bc6-a9ee-81e82e71e2cf"
-      ]
+      ],
+      "vo_job": "b47b6f23-73a2-422b-9ea2-c0b33116155f"
     },
     {
       "id": "S09",
@@ -441,7 +449,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "2d08089b-4128-4a32-b9ba-a42903dfc021"
-      ]
+      ],
+      "vo_job": "9ea37329-f3a9-442c-b706-a189774782fc"
     },
     {
       "id": "S10",
@@ -471,7 +480,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "42c092a8-cb01-45c3-a3b2-51a9a6d4ba25"
-      ]
+      ],
+      "vo_job": "2cea971b-0e7c-4279-a1c1-80da7068071f"
     },
     {
       "id": "S11",
@@ -501,7 +511,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "3c00e2e0-f146-4c7c-893a-2889a8563014"
-      ]
+      ],
+      "vo_job": "0c041691-bc56-464e-ad48-28a05fb60d23"
     },
     {
       "id": "S12",
@@ -531,7 +542,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "a712feb1-1e01-4611-95ac-dce4ef457570"
-      ]
+      ],
+      "vo_job": "a1460826-0acf-4b86-942a-56e849550f4a"
     },
     {
       "id": "S13",
@@ -560,7 +572,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "9b90e4d0-9b91-445f-b1d2-dc6130e6fef3"
-      ]
+      ],
+      "vo_job": "cba77eb4-c620-4127-8303-7783ca6ff2df"
     },
     {
       "id": "S14",
@@ -589,7 +602,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1"
-      ]
+      ],
+      "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246"
     },
     {
       "id": "S15",
@@ -617,7 +631,8 @@
       "keyframe_media_id": null,
       "keyframe_candidates": [
         "ed8260bb-0948-4314-96dc-c7e8387e2714"
-      ]
+      ],
+      "vo_job": "26e698ef-88ca-4202-be98-560bbc950709"
     }
   ],
   "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
@@ -627,5 +642,30 @@
     "ref_family": "d54b9203-3aa3-4e1a-a8aa-357f1670e1cf",
     "ref_hospital": "bc79b89c-e0c6-4797-a8b0-75be2c77ab84",
     "ref_gate": "260b2f59-ecd0-4fa2-8e65-6a493e6e1b57"
+  },
+  "voice": {
+    "name": "His Stories Narrator",
+    "voice_id": "7fdd61c6-a1fb-4ecc-9840-29214601576e",
+    "voice_type": "element",
+    "model": "seed_audio",
+    "source": "channel sample I_Could_See_It_In_His_Eyes_.mp3"
+  },
+  "vo_retakes_pending": {
+    "S07": [
+      "80094340-cb27-4c23-94b9-e90d7aee4567",
+      "bc0314f2-b150-40ff-b175-4d4966144458"
+    ],
+    "S10": [
+      "2d9eddef-44d5-4289-bad9-a46104ebd07f",
+      "fa6737d0-2607-405b-87cf-399c4ea69afe"
+    ],
+    "S12": [
+      "78153aa4-aa64-448b-a455-79ea10c6020d",
+      "05907526-f527-450a-862b-9e7639926cf5"
+    ],
+    "S13": [
+      "a6212c3e-eccd-4570-be4e-a1005728f1e5",
+      "0e4fb6a7-1662-43c3-a130-8d02c2809d9e"
+    ]
   }
 }
