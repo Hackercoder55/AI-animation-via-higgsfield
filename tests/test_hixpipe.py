@@ -67,6 +67,30 @@ class PromptTests(unittest.TestCase):
         self.assertIn("turnaround", hp.build_asset_prompt(proj, "maya"))
 
 
+class ContinuityTests(unittest.TestCase):
+    def setUp(self):
+        self.proj = demo_project()
+        self.proj["continuous"] = True
+        for i, sh in enumerate(self.proj["shots"]):
+            sh["keyframe_media_id"] = f"kf{i}"
+
+    def test_end_frame_is_next_keyframe(self):
+        s1 = hp.find_shot(self.proj, "S01")
+        prompt = hp.build_shot_prompt(self.proj, s1)
+        self.assertIn("@end_frame", prompt)
+        params = hp.build_request(self.proj, s1, prompt)
+        self.assertIn({"value": "kf1", "role": "end_image", "_label": "@end_frame"}, params["medias"])
+
+    def test_cut_before_and_last_shot_break_chain(self):
+        hp.find_shot(self.proj, "S02")["cut_before"] = True
+        self.assertIsNone(hp.next_continuous(self.proj, hp.find_shot(self.proj, "S01")))
+        self.assertIsNone(hp.next_continuous(self.proj, hp.find_shot(self.proj, "S03")))
+
+    def test_off_by_default(self):
+        self.proj["continuous"] = False
+        self.assertNotIn("@end_frame", hp.build_shot_prompt(self.proj, hp.find_shot(self.proj, "S01")))
+
+
 class ValidationTests(unittest.TestCase):
     def test_demo_has_no_errors(self):
         errors, _ = hp.validate(demo_project(), DEMO)
@@ -133,6 +157,10 @@ class AssembleTests(unittest.TestCase):
         self.assertAlmostEqual(float(info["format"]["duration"]), 5 + 3.5 + 4, delta=0.3)
         proj = json.loads((self.pdir / "project.json").read_text())
         self.assertEqual(hp.find_shot(proj, "S02")["trim_in"], 0.5)
+        # crossfaded joins overlap: 12.5s minus two 0.5s fades
+        out2 = self.tmp / "film_xfade.mp4"
+        hp.main(["assemble", p, "--resolution", "480p", "--placeholders", "--xfade", "0.5", "--out", str(out2)])
+        self.assertAlmostEqual(float(hp.ffprobe_json(out2)["format"]["duration"]), 11.5, delta=0.3)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 SCENE CONTEXT & STYLE
 The narrator stands barefoot in a pale blue hospital gown on the pale stone landing before the open golden gate, staring up in disbelief; a calm row of angels stands just inside the gate, the harp small on its dais to one side.
-Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.
+Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. World physics: slightly exaggerated cartoon physics, readable comedic timing.
 - The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.
 - The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).
 - Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.
@@ -8,12 +8,14 @@ Style: stylized 3D animated feature film look (soft subsurface skin, expressive 
 ACTIVE REFERENCES
 @narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined
 @heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate
+@end_frame = final frame. The shot must end exactly on this image - same framing, poses and positions.
 @keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.
 Characters, environments and props 100% match the reference.
 
 SHOT STRUCTURE
 Single continuous shot, 5s.
 Camera: Wide shot, low angle, slow tilt up from his bare feet to his face.
+One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
 - 0-2s: Tilt up from his bare feet to his astonished face.
 - 2-5s: He clutches the open back of his gown, eyes darting over the gate and the silent angels.
 Sound: soft heavenly ambience, wind, distant harp music

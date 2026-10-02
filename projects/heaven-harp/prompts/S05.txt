@@ -1,6 +1,6 @@
 SCENE CONTEXT & STYLE
 Kneeling beside the shattered harp, the harpist lifts her face and speaks; the narrator shrinks back clutching the broken column like a shield under the disappointed stares of the angels.
-Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.
+Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. World physics: slightly exaggerated cartoon physics, readable comedic timing.
 - The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.
 - The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).
 - Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.
@@ -10,12 +10,14 @@ ACTIVE REFERENCES
 @narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined
 @harp = Harp (prop): the ONLY harp at Heaven's gate
 @heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate
+@end_frame = final frame. The shot must end exactly on this image - same framing, poses and positions.
 @keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.
 Characters, environments and props 100% match the reference.
 
 SHOT STRUCTURE
 Single continuous shot, 7s.
 Camera: Close-up, low angle, static.
+One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
 - 0-2.6s: The harpist, hands hovering over the wreck, lifts her face and speaks.
 - 2.6-7s: Cut of attention to him shrinking back, the column clutched to his chest.
 Sound: quiet ambience

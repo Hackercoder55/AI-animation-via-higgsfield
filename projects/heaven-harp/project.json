@@ -175,7 +175,8 @@
         "bc278252-d466-4836-a606-dca8495e6f52"
       ],
       "vo_job": "d13d6f39-d7bd-43ba-95e1-510d5be11296",
-      "vo_duration": 3.83
+      "vo_duration": 3.83,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S02",
@@ -211,7 +212,14 @@
         "e661ac85-0a63-4343-8e72-1e6f7ca42b85"
       ],
       "vo_job": "839ac6a1-22fc-46bd-866e-52fe45ce2d22",
-      "vo_duration": 4.71
+      "vo_duration": 4.71,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist",
+      "test_takes": [
+        {
+          "job_id": "fa2c4c86-f429-4a63-bf6a-808f8195839a",
+          "resolution": "480p"
+        }
+      ]
     },
     {
       "id": "S03",
@@ -251,7 +259,8 @@
         "ce229d8d-cae9-46f4-a322-f8337566820d"
       ],
       "vo_job": "423976c0-863b-462c-b6a4-d5f84a0ef338",
-      "vo_duration": 7.09
+      "vo_duration": 7.09,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S04",
@@ -285,7 +294,8 @@
         "b9991ead-6c1f-463d-b3d5-01a469100426"
       ],
       "vo_job": "5f563a83-a6ef-490a-8315-a2db7f3c5c65",
-      "vo_duration": 5.47
+      "vo_duration": 5.47,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S05",
@@ -317,7 +327,8 @@
         "df0786b0-8056-48b8-9338-cc9f2a9f8aae"
       ],
       "vo_job": "24d2194c-8fe5-4125-94d0-aa3fd974f6ac",
-      "vo_duration": 5.34
+      "vo_duration": 5.34,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S06",
@@ -347,7 +358,8 @@
         "7368c7dd-e222-4e38-84da-a19119c39dac"
       ],
       "vo_job": "ac731a97-7277-470a-b059-bb8cd984a56d",
-      "vo_duration": 4.8
+      "vo_duration": 4.8,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S07",
@@ -383,7 +395,8 @@
         "6af40443-8322-4ec1-bc03-4c7d4e7db9a9"
       ],
       "vo_job": "80094340-cb27-4c23-94b9-e90d7aee4567",
-      "vo_duration": 8.6
+      "vo_duration": 8.6,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S08",
@@ -419,7 +432,8 @@
         "e9c2b26e-8598-4bc6-a9ee-81e82e71e2cf"
       ],
       "vo_job": "b47b6f23-73a2-422b-9ea2-c0b33116155f",
-      "vo_duration": 7.3
+      "vo_duration": 7.3,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S09",
@@ -459,7 +473,14 @@
         "2d08089b-4128-4a32-b9ba-a42903dfc021"
       ],
       "vo_job": "9ea37329-f3a9-442c-b706-a189774782fc",
-      "vo_duration": 9.65
+      "vo_duration": 9.65,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist",
+      "test_takes": [
+        {
+          "job_id": "6637aafd-c18c-43ca-8f8a-0d1ca14f206c",
+          "resolution": "480p"
+        }
+      ]
     },
     {
       "id": "S10",
@@ -491,7 +512,8 @@
         "42c092a8-cb01-45c3-a3b2-51a9a6d4ba25"
       ],
       "vo_job": "2d9eddef-44d5-4289-bad9-a46104ebd07f",
-      "vo_duration": 6.0
+      "vo_duration": 6.0,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S11",
@@ -523,7 +545,8 @@
         "3c00e2e0-f146-4c7c-893a-2889a8563014"
       ],
       "vo_job": "0c041691-bc56-464e-ad48-28a05fb60d23",
-      "vo_duration": 7.12
+      "vo_duration": 7.12,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S12",
@@ -555,7 +578,8 @@
         "a712feb1-1e01-4611-95ac-dce4ef457570"
       ],
       "vo_job": "05907526-f527-450a-862b-9e7639926cf5",
-      "vo_duration": 5.0
+      "vo_duration": 5.0,
+      "lighting": "timeless soft daylight, tangerine key light, turquoise fill, bright golden mist"
     },
     {
       "id": "S13",
@@ -586,7 +610,16 @@
         "9b90e4d0-9b91-445f-b1d2-dc6130e6fef3"
       ],
       "vo_job": "a6212c3e-eccd-4570-be4e-a1005728f1e5",
-      "vo_duration": 6.4
+      "vo_duration": 6.4,
+      "lighting": "mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill",
+      "cut_before": true,
+      "transition_in": 0.8,
+      "test_takes": [
+        {
+          "job_id": "70ddab2e-123a-4a7c-92a1-5d8a77dbb9dd",
+          "resolution": "480p"
+        }
+      ]
     },
     {
       "id": "S14",
@@ -617,7 +650,8 @@
         "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1"
       ],
       "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246",
-      "vo_duration": 5.25
+      "vo_duration": 5.25,
+      "lighting": "mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill"
     },
     {
       "id": "S15",
@@ -647,7 +681,8 @@
         "ed8260bb-0948-4314-96dc-c7e8387e2714"
       ],
       "vo_job": "26e698ef-88ca-4202-be98-560bbc950709",
-      "vo_duration": 4.45
+      "vo_duration": 4.45,
+      "lighting": "mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill"
     }
   ],
   "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
@@ -665,5 +700,7 @@
     "model": "seed_audio",
     "source": "channel sample I_Could_See_It_In_His_Eyes_.mp3"
   },
-  "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked"
+  "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked",
+  "continuous": true,
+  "xfade": 0.25
 }

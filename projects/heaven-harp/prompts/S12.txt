@@ -1,6 +1,6 @@
 SCENE CONTEXT & STYLE
 The harpist folds her arms and sighs over the fading narrator, who is half light; the angels behind turn their backs on him one by one, shaking their heads.
-Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.
+Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. World physics: slightly exaggerated cartoon physics, readable comedic timing.
 - The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.
 - The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).
 - Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.

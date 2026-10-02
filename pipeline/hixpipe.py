@@ -173,7 +173,7 @@ def build_shot_prompt(proj: dict, shot: dict) -> str:
     out.append(shot["context"].strip())
     style_bits = [
         f"Style: {style['look']}." if style.get("look") else "",
-        f"Lighting: {style['lighting']}." if style.get("lighting") else "",
+        f"Lighting: {shot.get('lighting') or style['lighting']}." if (shot.get("lighting") or style.get("lighting")) else "",
         f"World physics: {style['physics']}." if style.get("physics") else "",
     ]
     out.append(" ".join(b for b in style_bits if b))
@@ -197,6 +197,9 @@ def build_shot_prompt(proj: dict, shot: dict) -> str:
             "blocking and camera move. Ignore its gray untextured look - all "
             "appearance comes from the image references."
         )
+    if next_continuous(proj, shot):
+        out.append("@end_frame = final frame. The shot must end exactly on this image - same framing, "
+                   "poses and positions.")
     if route == "keyframe":
         out.append(
             "@keyframe = start frame. Keep its framing and camera angle; the "
@@ -211,6 +214,9 @@ def build_shot_prompt(proj: dict, shot: dict) -> str:
                else f"{shot['duration']}s total, hard cuts as listed.")
     if shot.get("camera"):
         out.append(f"Camera: {shot['camera']}")
+    if next_continuous(proj, shot):
+        out.append("One unbroken take with no cuts: the camera moves smoothly and continuously so the "
+                   "final frame lands exactly on @end_frame (the next shot's opening frame).")
     for b in shot.get("beats", []):
         if isinstance(b, dict):
             out.append(f"- {b.get('t', '')}: {b['action']}".replace("- : ", "- "))
@@ -240,6 +246,25 @@ def build_shot_prompt(proj: dict, shot: dict) -> str:
     return "\n".join(out).strip() + "\n"
 
 
+def next_continuous(proj: dict, shot: dict) -> dict | None:
+    """The following shot when the film is one continuous take across this join.
+
+    With project "continuous": true every shot ends exactly on the next shot's
+    start frame (end_image), so the edit has no visible cut. A shot with
+    "cut_before": true (location change, time jump) breaks the chain.
+    """
+    if not proj.get("continuous"):
+        return None
+    shots = proj.get("shots", [])
+    i = next((k for k, s in enumerate(shots) if s["id"] == shot["id"]), None)
+    if i is None or i + 1 >= len(shots):
+        return None
+    nxt = shots[i + 1]
+    if nxt.get("cut_before") or not nxt.get("keyframe_media_id"):
+        return None
+    return nxt
+
+
 def build_request(proj: dict, shot: dict, prompt: str) -> dict:
     """Params for mcp__Higgsfield__generate_video."""
     models = proj.get("models", {})
@@ -262,6 +287,9 @@ def build_request(proj: dict, shot: dict, prompt: str) -> dict:
         medias.append({"value": shot["previs_media_id"], "role": "video_references", "_label": "@previs"})
     if route == "keyframe" and shot.get("keyframe_media_id"):
         medias.append({"value": shot["keyframe_media_id"], "role": "start_image", "_label": "@keyframe"})
+    nxt = next_continuous(proj, shot)
+    if nxt:
+        medias.append({"value": nxt["keyframe_media_id"], "role": "end_image", "_label": "@end_frame"})
 
     params: dict = {
         "model": model,
@@ -364,6 +392,37 @@ def placeholder_clip(dst: Path, w: int, h: int, fps: int, dur: float) -> None:
          "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
          "-map", "0:v", "-map", "1:a", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-ar", "48000", "-ac", "2", str(dst)])
+
+
+def join_seconds(proj: dict, shot: dict, default: float) -> float:
+    """Crossfade length into this shot: per-shot transition_in, else project/CLI default."""
+    if shot.get("transition_in") is not None:
+        return float(shot["transition_in"])
+    return float(proj.get("xfade", default))
+
+
+def xfade_join(parts: list[Path], joins: list[float], out: Path) -> None:
+    """Join clips with video+audio crossfades. joins[i] is the overlap into parts[i] (joins[0] unused)."""
+    durs = [float(ffprobe_json(p)["format"]["duration"]) for p in parts]
+    cmd = ["ffmpeg", "-y", "-v", "error"]
+    for p in parts:
+        cmd += ["-i", str(p)]
+    vf, af = [], []
+    vlast, alast, t = "[0:v]", "[0:a]", durs[0]
+    for i in range(1, len(parts)):
+        d = max(0.0, min(joins[i], durs[i - 1] / 2, durs[i] / 2))
+        vo, ao = f"[v{i}]", f"[a{i}]"
+        if d > 0:
+            vf.append(f"{vlast}[{i}:v]xfade=transition=fade:duration={d:.3f}:offset={t - d:.3f}{vo}")
+            af.append(f"{alast}[{i}:a]acrossfade=d={d:.3f}{ao}")
+        else:
+            vf.append(f"{vlast}[{i}:v]concat=n=2:v=1:a=0{vo}")
+            af.append(f"{alast}[{i}:a]concat=n=2:v=0:a=1{ao}")
+        vlast, alast, t = vo, ao, t + durs[i] - d
+    cmd += ["-filter_complex", ";".join(vf + af), "-map", vlast, "-map", alast,
+            "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-ar", "48000", "-b:a", "192k", str(out)]
+    run(cmd)
 
 
 # -------------------------------------------------------------------- commands
@@ -523,10 +582,14 @@ def cmd_assemble(args) -> None:
     if not parts:
         raise PipelineError("nothing to assemble")
 
-    listfile = work / "concat.txt"
-    listfile.write_text("".join(f"file '{p.name}'\n" for p in parts), encoding="utf-8")
     cut = work / "cut.mp4"
-    run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(listfile), "-c", "copy", str(cut)])
+    joins = [join_seconds(proj, s, args.xfade) for s in proj.get("shots", []) if s["id"] not in missing or args.placeholders]
+    if any(joins[1:]):
+        xfade_join(parts, joins, cut)
+    else:
+        listfile = work / "concat.txt"
+        listfile.write_text("".join(f"file '{p.name}'\n" for p in parts), encoding="utf-8")
+        run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(listfile), "-c", "copy", str(cut)])
 
     out = Path(args.out) if args.out else pdir / "final" / f"{slugify(proj.get('title', 'film'))}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -598,6 +661,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--music-volume", type=float, default=0.25)
     p.add_argument("--resolution", help="override output resolution, e.g. 1080p")
     p.add_argument("--placeholders", action="store_true", help="gray cards for unapproved shots (animatic)")
+    p.add_argument("--xfade", type=float, default=0.0, help="crossfade seconds at every join (0 = hard cuts)")
     p.add_argument("--out")
     p.set_defaults(fn=cmd_assemble)
 
