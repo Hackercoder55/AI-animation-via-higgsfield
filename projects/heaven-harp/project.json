@@ -339,7 +339,8 @@
           "job_id": "ba2131e4-d466-45a4-a028-cf280eae8bc2",
           "resolution": "720p"
         }
-      ]
+      ],
+      "note": "only 1 of 2 variants was returned by the API; generate a 2nd if take 1 fails review"
     },
     {
       "id": "S05",
@@ -878,7 +879,19 @@
       "vo_job": "26e698ef-88ca-4202-be98-560bbc950709",
       "vo_duration": 4.45,
       "lighting": "mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill",
-      "beats_synced_to_vo": true
+      "beats_synced_to_vo": true,
+      "takes": [
+        {
+          "n": 1,
+          "job_id": "873390b4-3b81-4888-83b1-80285398ab36",
+          "resolution": "720p"
+        },
+        {
+          "n": 2,
+          "job_id": "afdde11e-a871-4e92-b881-41b2af73ebb2",
+          "resolution": "720p"
+        }
+      ]
     }
   ],
   "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
