@@ -951,6 +951,12 @@
     "continuous_takes": [
       "1c504e29-7eb6-4a78-bfd6-07ada6a3dc85",
       "071f2806-2e5a-4d8e-bc6b-14de68e0d75c"
+    ],
+    "continuous_chunks": [
+      "bf8ee779-5af1-4b4a-95a1-96bb353d1e59",
+      "874f7b1c-265a-467c-a700-12dae8789507",
+      "d8a9547e-40c6-4c30-a7b2-77f9524f98a7",
+      "69943194-7189-4a44-a7d9-038822231341"
     ]
   },
   "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked",
@@ -976,5 +982,14 @@
     "camera": "slow push/pull on every shot",
     "transitions": "whip-pan (smoothleft/right + blur) 0.35s, fadewhite 0.8s into hospital",
     "media_id": "e2fff66b-6a68-4c2a-8b07-ac23f33b738c"
+  },
+  "edit_v3": {
+    "media_id": "a0a6be10-7c9b-4f99-bc02-86b8b8a32ed1",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IONVXBVgcI0lK1OKjd41czEVtU/a0a6be10-7c9b-4f99-bc02-86b8b8a32ed1.mp4",
+    "duration": 114.6,
+    "resolution": "720p",
+    "upscale_1080p_job": "ddf5fb21-ff80-4887-8508-ce3617499e25",
+    "notes": "narration is master: 4 continuous chunks (S01-06, S07-09, S10-12, S13-15), cuts placed 0.25s before each shot's first word, shots retimed 0.74-1.25x, push/pull + whip pans, white flash into S13, no subtitles",
+    "script": "pipeline/sandbox_recut_vo.py + projects/heaven-harp/recut.json"
   }
 }
