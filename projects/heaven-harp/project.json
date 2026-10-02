@@ -29,7 +29,8 @@
   },
   "locks": [
     "No spoken dialogue or narration audio - SFX and ambience only.",
-    "No subtitles or on-screen text."
+    "No subtitles or on-screen text.",
+    "Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double)."
   ],
   "assets": {
     "narrator": {
@@ -617,7 +618,8 @@
       "test_takes": [
         {
           "job_id": "70ddab2e-123a-4a7c-92a1-5d8a77dbb9dd",
-          "resolution": "480p"
+          "resolution": "480p",
+          "review": "ends on old S14 frame with duplicate narrator (over-the-shoulder double) - redo after new S14 keyframe"
         }
       ]
     },
@@ -631,8 +633,8 @@
         "hospital"
       ],
       "narration": "I reached for my phone. \"Calling your family?\" \"I'm finding someone who can teach me harp repair.\"",
-      "context": "Still hooked up to an IV, the narrator types feverishly on his smartphone while the surgeon at the foot of the bed watches, confused.",
-      "camera": "Medium on the surgeon over his blurred shoulder and phone glow, locked off.",
+      "context": "Still hooked up to an IV, the narrator sits up in bed typing feverishly on his smartphone while the surgeon at the foot of the bed watches, confused.",
+      "camera": "Medium two shot, eye level: the narrator sharp in the lower-left foreground in bed with his phone, the surgeon behind at the foot of the bed.",
       "beats": [
         {
           "t": "0-3s",
@@ -647,7 +649,8 @@
       "storyboard": "storyboard/beat14.jpg",
       "keyframe_media_id": "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1",
       "keyframe_candidates": [
-        "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1"
+        "8da36d70-e901-4ca8-a3c0-0ad9b14315f5",
+        "ee970007-769e-4c02-9edb-17b86017bd3b"
       ],
       "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246",
       "vo_duration": 5.25,
