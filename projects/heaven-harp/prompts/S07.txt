@@ -18,9 +18,10 @@ SHOT STRUCTURE
 Single continuous shot, 10s.
 Camera: Two shot, eye level, rack focus from the strings to her face.
 One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
-- 0-2.3s: He asks, looking hopeful, gesturing at the harp.
-- 2.3-4.6s: She nods toward the pedestal of glowing strings.
-- 4.6-10s: Focus shifts to her calm face as she explains, hands firmly behind her back.
+- 0-1.3s: He asks hopefully, gesturing at the broken harp.
+- 1.9-3.2s: She nods her chin toward the pedestal of glowing spare strings.
+- 3.6-8.6s: She explains calmly, hands clasped firmly behind her back, never touching the harp.
+- 8.6-10s: Hold on her steady, patient look.
 Sound: gentle hum of the glowing strings
 
 LOCKS & CONSTRAINTS
@@ -30,6 +31,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 

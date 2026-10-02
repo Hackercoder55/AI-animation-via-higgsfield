@@ -16,8 +16,8 @@ SHOT STRUCTURE
 Single continuous shot, 6s.
 Camera: Medium close-up, high angle looking down on him.
 One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
-- 0-3.4s: He bows his head, one toe scuffing the stone, ears flushing red.
-- 3.4-6s: The angels stand motionless above him, gazes angled down at him.
+- 0-2.4s: He bows his head, one toe scuffing the stone, cheeks and ears flushing red.
+- 2.4-6s: The camera rises to reveal tall angels standing above him, staring down at him in silence.
 Sound: soft wind
 
 LOCKS & CONSTRAINTS
@@ -27,6 +27,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 
 ANIMATION PRINCIPLES

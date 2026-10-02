@@ -18,8 +18,9 @@ SHOT STRUCTURE
 Single continuous shot, 7s.
 Camera: Medium shot, eye level, rack focus from his hands to the fading gate.
 One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
-- 0-3.5s: Concentrating, tongue in the corner of his mouth, he secures one string; small relieved breath.
-- 3.5-7s: Focus pulls back to the gate dissolving into bright mist.
+- 0-1s: The harpist warns him, pointing at the cracked column.
+- 1.4-3.5s: He ties one glowing string to its pin and lets out a small relieved breath.
+- 4.3-7s: Behind him the golden gate turns translucent and starts to fade.
 Sound: soft magical shimmer
 
 LOCKS & CONSTRAINTS
@@ -29,6 +30,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 - Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.
 

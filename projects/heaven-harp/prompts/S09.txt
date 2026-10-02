@@ -18,10 +18,10 @@ SHOT STRUCTURE
 Single continuous shot, 11s.
 Camera: Close-up, eye level, handheld.
 One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
-- 0-3.3s: He carefully threads the glowing string at the tuning pin.
-- 3.3-5s: PING - the string whips across his nose; head snaps back.
-- 5-7.7s: His gown snags on a pedal as he flails.
-- 7.7-11s: He falls flat on his face on the stone.
+- 0-3.6s: He carefully threads the glowing string at the tuning pin.
+- 3.7-4.9s: PING - the string whips across his nose; his head snaps back.
+- 6.4-8.4s: His gown snags on a pedal as he flails for balance.
+- 8.4-11s: He falls flat on his face on the stone and lies there a beat.
 Sound: string ping, thud, crowd gasp
 
 LOCKS & CONSTRAINTS
@@ -31,6 +31,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 - Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.
 

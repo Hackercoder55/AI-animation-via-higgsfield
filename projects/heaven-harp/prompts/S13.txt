@@ -14,11 +14,13 @@ ACTIVE REFERENCES
 Characters, environments and props 100% match the reference.
 
 SHOT STRUCTURE
-Single continuous shot, 8s.
+Single continuous shot, 6s.
 Camera: Two shot, eye level, static.
 One unbroken take with no cuts: the camera moves smoothly and continuously so the final frame lands exactly on @end_frame (the next shot's opening frame).
-- 0-2.7s: He snaps upright with a gasp, yanking the oxygen mask to his chin, IV line swinging.
-- 2.7-8s: The surgeon smiles warmly and nods at him.
+- 0-1s: He gasps and jolts upright, yanking the oxygen mask to his chin.
+- 1-2.4s: He looks around the recovery room, stunned.
+- 2.5-3.5s: The surgeon at the foot of the bed smiles.
+- 3.6-6s: She nods warmly as she speaks.
 Sound: heart monitor beeps, gasp
 
 LOCKS & CONSTRAINTS
@@ -28,6 +30,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 - Surgeon is a woman in her mid-forties in every frame - same age, face and body proportions as the reference; never younger or older.
 

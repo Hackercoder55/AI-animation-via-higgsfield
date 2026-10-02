@@ -14,8 +14,9 @@ Characters, environments and props 100% match the reference.
 SHOT STRUCTURE
 Single continuous shot, 6s.
 Camera: Medium close-up, slow push in, hold.
-- 0-3s: His eyes scan the phone screen, then steady.
-- 3-6s: A small determined smile; he settles back into the pillow.
+- 0-2.6s: His eyes scan the phone screen.
+- 2.6-4.5s: A small determined smile spreads across his face.
+- 4.5-6s: He settles back into the pillow, holding the phone; hold.
 Sound: soft warm room tone
 
 LOCKS & CONSTRAINTS
@@ -25,6 +26,7 @@ LOCKS & CONSTRAINTS
 - Keep one consistent art style for the whole shot; no switch to photorealism.
 - No spoken dialogue or narration audio - SFX and ambience only.
 - No subtitles or on-screen text.
+- Every character appears only once in the frame - never two copies of the same person (no over-the-shoulder double).
 - Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
 
 ANIMATION PRINCIPLES
