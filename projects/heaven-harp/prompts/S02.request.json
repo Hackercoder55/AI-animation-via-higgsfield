@@ -1,0 +1,36 @@
+{
+  "model": "seedance_2_5",
+  "prompt": "SCENE CONTEXT & STYLE\nThe narrator trips on the hem of his gown and crashes chest-first into the tall golden harp while the harpist angel falls backward off her stool.\nStyle: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.\n- The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.\n- The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).\n- Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.\n\nACTIVE REFERENCES\n@narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined\n@harpist = Harpist angel (character): the angel whose harp he breaks; his calm guide. Personality: calm, composed, quietly hurt\n@harp = Harp (prop): the ONLY harp at Heaven's gate\n@heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate\n@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.\nCharacters, environments and props 100% match the reference.\n\nSHOT STRUCTURE\nSingle continuous shot, 6s.\nCamera: Two shot, eye level, handheld.\n- 0-1.8s: He stumbles forward over his gown hem, arms flailing.\n- 1.8-3.6s: He slams chest-first into the harp; three strings spring loose.\n- 3.6-6s: The angel tumbles backward off her stool, wings flaring; the music stops dead.\nSound: harp music, crash, twang of strings, sudden silence\n\nLOCKS & CONSTRAINTS\n- No music. SFX and ambience only.\n- No extra people, characters, text, logos or subtitles beyond the references.\n- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.\n- Keep one consistent art style for the whole shot; no switch to photorealism.\n- No spoken dialogue or narration audio - SFX and ambience only.\n- No subtitles or on-screen text.\n- Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.\n- Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.\n\nANIMATION PRINCIPLES\nApply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.\n",
+  "duration": 6,
+  "aspect_ratio": "9:16",
+  "count": 2,
+  "resolution": "720p",
+  "generate_audio": true,
+  "mode": "omni_reference",
+  "medias": [
+    {
+      "value": "2fa48e98-b50e-4165-9f0e-ba2665d38aa6",
+      "role": "image_references"
+    },
+    {
+      "value": "9c846390-237d-49b0-bb7e-1b71d17a87ba",
+      "role": "image_references"
+    },
+    {
+      "value": "4792cecd-6734-45e3-a129-413fafdea8f9",
+      "role": "image_references"
+    },
+    {
+      "value": "c2102e2d-5e77-4ecc-8e5e-8021152b73c8",
+      "role": "image_references"
+    },
+    {
+      "value": "87a0df93-99f9-4801-9a82-15984e863dd4",
+      "role": "image_references"
+    },
+    {
+      "value": "e661ac85-0a63-4343-8e72-1e6f7ca42b85",
+      "role": "start_image"
+    }
+  ]
+}

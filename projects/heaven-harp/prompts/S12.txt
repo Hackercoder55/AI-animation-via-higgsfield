@@ -1,0 +1,34 @@
+SCENE CONTEXT & STYLE
+The harpist folds her arms and sighs over the fading narrator, who is half light; the angels behind turn their backs on him one by one, shaking their heads.
+Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.
+- The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.
+- The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).
+- Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.
+
+ACTIVE REFERENCES
+@harpist = Harpist angel (character): the angel whose harp he breaks; his calm guide. Personality: calm, composed, quietly hurt
+@narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined
+@harp = Harp (prop): the ONLY harp at Heaven's gate
+@heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate
+@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.
+Characters, environments and props 100% match the reference.
+
+SHOT STRUCTURE
+Single continuous shot, 6s.
+Camera: Wide shot, eye level, pull out.
+- 0-3s: She folds her arms and sighs.
+- 3-6s: Angels turn away one after another, heads shaking, as he fades to light.
+Sound: heartbeat getting louder
+
+LOCKS & CONSTRAINTS
+- No music. SFX and ambience only.
+- No extra people, characters, text, logos or subtitles beyond the references.
+- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.
+- Keep one consistent art style for the whole shot; no switch to photorealism.
+- No spoken dialogue or narration audio - SFX and ambience only.
+- No subtitles or on-screen text.
+- Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.
+- Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
+
+ANIMATION PRINCIPLES
+Apply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.

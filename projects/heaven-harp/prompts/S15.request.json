@@ -1,0 +1,24 @@
+{
+  "model": "seedance_2_5",
+  "prompt": "SCENE CONTEXT & STYLE\nIn the sunlit recovery bed the narrator smiles determinedly at his phone screen, which shows search results for instrument repair classes.\nStyle: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.\n- The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.\n- The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).\n- Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.\n\nACTIVE REFERENCES\n@narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined\n@hospital = Recovery bay (location): post-op recovery bay\n@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.\nCharacters, environments and props 100% match the reference.\n\nSHOT STRUCTURE\nSingle continuous shot, 6s.\nCamera: Medium close-up, slow push in, hold.\n- 0-3s: His eyes scan the phone screen, then steady.\n- 3-6s: A small determined smile; he settles back into the pillow.\nSound: soft warm room tone\n\nLOCKS & CONSTRAINTS\n- No music. SFX and ambience only.\n- No extra people, characters, text, logos or subtitles beyond the references.\n- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.\n- Keep one consistent art style for the whole shot; no switch to photorealism.\n- No spoken dialogue or narration audio - SFX and ambience only.\n- No subtitles or on-screen text.\n- Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.\n\nANIMATION PRINCIPLES\nApply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.\n",
+  "duration": 6,
+  "aspect_ratio": "9:16",
+  "count": 2,
+  "resolution": "720p",
+  "generate_audio": true,
+  "mode": "omni_reference",
+  "medias": [
+    {
+      "value": "2fa48e98-b50e-4165-9f0e-ba2665d38aa6",
+      "role": "image_references"
+    },
+    {
+      "value": "bd6c5c6e-cf05-445f-bf20-0bab50f60be0",
+      "role": "image_references"
+    },
+    {
+      "value": "ed8260bb-0948-4314-96dc-c7e8387e2714",
+      "role": "start_image"
+    }
+  ]
+}

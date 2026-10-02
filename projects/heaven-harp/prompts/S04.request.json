@@ -1,0 +1,44 @@
+{
+  "model": "seedance_2_5",
+  "prompt": "SCENE CONTEXT & STYLE\nAcross the landing every angel and new arrival turns to stare at the narrator, who stands small by the dais hugging the splintered column; the harpist kneels by the wrecked harp.\nStyle: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.\n- The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.\n- The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).\n- Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.\n\nACTIVE REFERENCES\n@narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined\n@harpist = Harpist angel (character): the angel whose harp he breaks; his calm guide. Personality: calm, composed, quietly hurt\n@family = Arriving parents (character): a mother and father arriving at the gate with their daughter. Personality: curious, judgmental in a whisper\n@daughter = Daughter (character): the parents' curious little daughter. Personality: curious, blunt\n@harp = Harp (prop): the ONLY harp at Heaven's gate\n@heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate\n@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.\nCharacters, environments and props 100% match the reference.\n\nSHOT STRUCTURE\nSingle continuous shot, 7s.\nCamera: Wide shot, eye level, slow pull out.\n- 0-3s: Heads turn in a ripple toward him across the crowd.\n- 3-7s: The harpist kneels over the shattered harp, staring at it; he hugs the column to his chest, eyes darting.\nSound: crowd murmur stopping, silence\n\nLOCKS & CONSTRAINTS\n- No music. SFX and ambience only.\n- No extra people, characters, text, logos or subtitles beyond the references.\n- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.\n- Keep one consistent art style for the whole shot; no switch to photorealism.\n- No spoken dialogue or narration audio - SFX and ambience only.\n- No subtitles or on-screen text.\n- Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.\n- Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.\n- Arriving parents is a mother and father in their early thirties in every frame - same age, face and body proportions as the reference; never younger or older.\n- Daughter is a girl about seven years old in every frame - same age, face and body proportions as the reference; never younger or older.\n\nANIMATION PRINCIPLES\nApply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.\n",
+  "duration": 7,
+  "aspect_ratio": "9:16",
+  "count": 2,
+  "resolution": "720p",
+  "generate_audio": true,
+  "mode": "omni_reference",
+  "medias": [
+    {
+      "value": "2fa48e98-b50e-4165-9f0e-ba2665d38aa6",
+      "role": "image_references"
+    },
+    {
+      "value": "9c846390-237d-49b0-bb7e-1b71d17a87ba",
+      "role": "image_references"
+    },
+    {
+      "value": "4792cecd-6734-45e3-a129-413fafdea8f9",
+      "role": "image_references"
+    },
+    {
+      "value": "7b38cef7-1e4e-425a-a8e2-b772196bf68f",
+      "role": "image_references"
+    },
+    {
+      "value": "66315a6b-e363-44d5-962b-c0376a4d5a25",
+      "role": "image_references"
+    },
+    {
+      "value": "c2102e2d-5e77-4ecc-8e5e-8021152b73c8",
+      "role": "image_references"
+    },
+    {
+      "value": "87a0df93-99f9-4801-9a82-15984e863dd4",
+      "role": "image_references"
+    },
+    {
+      "value": "b9991ead-6c1f-463d-b3d5-01a469100426",
+      "role": "start_image"
+    }
+  ]
+}

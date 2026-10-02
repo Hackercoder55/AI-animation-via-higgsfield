@@ -1,0 +1,36 @@
+SCENE CONTEXT & STYLE
+Sitting cross-legged at the broken harp, the narrator threads a glowing string where the harpist points; it snaps back across his nose and he topples, his gown catching a pedal, landing flat on his face.
+Style: stylized 3D animated feature film look (soft subsurface skin, expressive faces, detailed curly hair, cloth simulation), vertical 9:16. Lighting: Heaven: timeless soft daylight, tangerine key light, turquoise fill, bright golden mist. Hospital: mid-morning, warm blind-striped sunlight on pale blue walls, turquoise-green fill. World physics: slightly exaggerated cartoon physics, readable comedic timing.
+- The narrator wears a pale blue hospital gown and is barefoot in every Heaven shot; in the hospital he wears a pale blue hospital gown in bed.
+- The harp is one ornate golden floor harp; once broken it stays broken (3 loose strings, snapped column, split base).
+- Mouths may move on dialogue, but there is no spoken audio; the voice-over is added in post.
+
+ACTIVE REFERENCES
+@narrator = Narrator (character): the new arrival, an atheist who just died in surgery. Personality: flustered, clumsy, guilty, then determined
+@harp = Harp (prop): the ONLY harp at Heaven's gate
+@harpist = Harpist angel (character): the angel whose harp he breaks; his calm guide. Personality: calm, composed, quietly hurt
+@heaven_gate = Heaven's gate (location): pale stone landing on a cloud bank before an open golden gate
+@keyframe = start frame. Keep its framing and camera angle; the character design still comes from the character references.
+Characters, environments and props 100% match the reference.
+
+SHOT STRUCTURE
+Single continuous shot, 11s.
+Camera: Close-up, eye level, handheld.
+- 0-3.3s: He carefully threads the glowing string at the tuning pin.
+- 3.3-5s: PING - the string whips across his nose; head snaps back.
+- 5-7.7s: His gown snags on a pedal as he flails.
+- 7.7-11s: He falls flat on his face on the stone.
+Sound: string ping, thud, crowd gasp
+
+LOCKS & CONSTRAINTS
+- No music. SFX and ambience only.
+- No extra people, characters, text, logos or subtitles beyond the references.
+- Characters, environments and props 100% match the reference images - same design, colors, proportions and outfit in every frame.
+- Keep one consistent art style for the whole shot; no switch to photorealism.
+- No spoken dialogue or narration audio - SFX and ambience only.
+- No subtitles or on-screen text.
+- Narrator is an adult man in his mid-twenties (adult face, defined jaw, adult height and proportions, not a teenager or child) in every frame - same age, face and body proportions as the reference; never younger or older.
+- Harpist angel is a young adult woman in her mid-twenties in every frame - same age, face and body proportions as the reference; never younger or older.
+
+ANIMATION PRINCIPLES
+Apply the 12 principles of animation: squash and stretch, anticipation, staging, straight-ahead and pose-to-pose, follow-through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal. Movement is snappy and cartoony, with clear holds on key poses so every beat reads.

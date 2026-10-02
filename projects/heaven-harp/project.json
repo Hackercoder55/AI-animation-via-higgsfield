@@ -170,16 +170,17 @@
       ],
       "sfx": "soft heavenly ambience, wind, distant harp music",
       "storyboard": "storyboard/beat01.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "bc278252-d466-4836-a606-dca8495e6f52",
       "keyframe_candidates": [
         "bc278252-d466-4836-a606-dca8495e6f52"
       ],
-      "vo_job": "d13d6f39-d7bd-43ba-95e1-510d5be11296"
+      "vo_job": "d13d6f39-d7bd-43ba-95e1-510d5be11296",
+      "vo_duration": 3.83
     },
     {
       "id": "S02",
       "route": "keyframe",
-      "duration": 5,
+      "duration": 6,
       "assets": [
         "narrator",
         "harpist",
@@ -191,30 +192,31 @@
       "camera": "Two shot, eye level, handheld.",
       "beats": [
         {
-          "t": "0-1.5s",
+          "t": "0-1.8s",
           "action": "He stumbles forward over his gown hem, arms flailing."
         },
         {
-          "t": "1.5-3s",
+          "t": "1.8-3.6s",
           "action": "He slams chest-first into the harp; three strings spring loose."
         },
         {
-          "t": "3-5s",
+          "t": "3.6-6s",
           "action": "The angel tumbles backward off her stool, wings flaring; the music stops dead."
         }
       ],
       "sfx": "harp music, crash, twang of strings, sudden silence",
       "storyboard": "storyboard/beat02.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "e661ac85-0a63-4343-8e72-1e6f7ca42b85",
       "keyframe_candidates": [
         "e661ac85-0a63-4343-8e72-1e6f7ca42b85"
       ],
-      "vo_job": "839ac6a1-22fc-46bd-866e-52fe45ce2d22"
+      "vo_job": "839ac6a1-22fc-46bd-866e-52fe45ce2d22",
+      "vo_duration": 4.71
     },
     {
       "id": "S03",
       "route": "keyframe",
-      "duration": 9,
+      "duration": 8,
       "assets": [
         "narrator",
         "harp",
@@ -226,29 +228,30 @@
       "camera": "Medium shot, high angle, slow push in.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-2.7s",
           "action": "Three loose strings swing; he grips the column with both hands and starts lifting."
         },
         {
-          "t": "3-5s",
+          "t": "2.7-4.4s",
           "action": "CRACK - a chunk of the column snaps off in his grip."
         },
         {
-          "t": "5-7s",
+          "t": "4.4-6.2s",
           "action": "The base splits and the harp settles crooked."
         },
         {
-          "t": "7-9s",
+          "t": "6.2-8s",
           "action": "He freezes mid-crouch, horrified, staring at the broken piece; the angel sits stunned behind him."
         }
       ],
       "sfx": "wood creak, loud crack, splintering",
       "storyboard": "storyboard/beat03.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "ce229d8d-cae9-46f4-a322-f8337566820d",
       "keyframe_candidates": [
         "ce229d8d-cae9-46f4-a322-f8337566820d"
       ],
-      "vo_job": "423976c0-863b-462c-b6a4-d5f84a0ef338"
+      "vo_job": "423976c0-863b-462c-b6a4-d5f84a0ef338",
+      "vo_duration": 7.09
     },
     {
       "id": "S04",
@@ -277,16 +280,17 @@
       ],
       "sfx": "crowd murmur stopping, silence",
       "storyboard": "storyboard/beat04.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "b9991ead-6c1f-463d-b3d5-01a469100426",
       "keyframe_candidates": [
         "b9991ead-6c1f-463d-b3d5-01a469100426"
       ],
-      "vo_job": "5f563a83-a6ef-490a-8315-a2db7f3c5c65"
+      "vo_job": "5f563a83-a6ef-490a-8315-a2db7f3c5c65",
+      "vo_duration": 5.47
     },
     {
       "id": "S05",
       "route": "keyframe",
-      "duration": 8,
+      "duration": 7,
       "assets": [
         "harpist",
         "narrator",
@@ -298,26 +302,27 @@
       "camera": "Close-up, low angle, static.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-2.6s",
           "action": "The harpist, hands hovering over the wreck, lifts her face and speaks."
         },
         {
-          "t": "3-8s",
+          "t": "2.6-7s",
           "action": "Cut of attention to him shrinking back, the column clutched to his chest."
         }
       ],
       "sfx": "quiet ambience",
       "storyboard": "storyboard/beat05.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "df0786b0-8056-48b8-9338-cc9f2a9f8aae",
       "keyframe_candidates": [
         "df0786b0-8056-48b8-9338-cc9f2a9f8aae"
       ],
-      "vo_job": "24d2194c-8fe5-4125-94d0-aa3fd974f6ac"
+      "vo_job": "24d2194c-8fe5-4125-94d0-aa3fd974f6ac",
+      "vo_duration": 5.34
     },
     {
       "id": "S06",
       "route": "keyframe",
-      "duration": 7,
+      "duration": 6,
       "assets": [
         "narrator",
         "heaven_gate"
@@ -327,26 +332,27 @@
       "camera": "Medium close-up, high angle looking down on him.",
       "beats": [
         {
-          "t": "0-4s",
+          "t": "0-3.4s",
           "action": "He bows his head, one toe scuffing the stone, ears flushing red."
         },
         {
-          "t": "4-7s",
+          "t": "3.4-6s",
           "action": "The angels stand motionless above him, gazes angled down at him."
         }
       ],
       "sfx": "soft wind",
       "storyboard": "storyboard/beat06.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "7368c7dd-e222-4e38-84da-a19119c39dac",
       "keyframe_candidates": [
         "7368c7dd-e222-4e38-84da-a19119c39dac"
       ],
-      "vo_job": "ac731a97-7277-470a-b059-bb8cd984a56d"
+      "vo_job": "ac731a97-7277-470a-b059-bb8cd984a56d",
+      "vo_duration": 4.8
     },
     {
       "id": "S07",
       "route": "keyframe",
-      "duration": 13,
+      "duration": 10,
       "assets": [
         "harpist",
         "narrator",
@@ -358,30 +364,31 @@
       "camera": "Two shot, eye level, rack focus from the strings to her face.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-2.3s",
           "action": "He asks, looking hopeful, gesturing at the harp."
         },
         {
-          "t": "3-6s",
+          "t": "2.3-4.6s",
           "action": "She nods toward the pedestal of glowing strings."
         },
         {
-          "t": "6-13s",
+          "t": "4.6-10s",
           "action": "Focus shifts to her calm face as she explains, hands firmly behind her back."
         }
       ],
       "sfx": "gentle hum of the glowing strings",
       "storyboard": "storyboard/beat07.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "6af40443-8322-4ec1-bc03-4c7d4e7db9a9",
       "keyframe_candidates": [
         "6af40443-8322-4ec1-bc03-4c7d4e7db9a9"
       ],
-      "vo_job": "90128da3-f54e-45f2-9608-742222303e10"
+      "vo_job": "80094340-cb27-4c23-94b9-e90d7aee4567",
+      "vo_duration": 8.6
     },
     {
       "id": "S08",
       "route": "keyframe",
-      "duration": 10,
+      "duration": 9,
       "assets": [
         "family",
         "daughter",
@@ -393,30 +400,31 @@
       "camera": "Medium shot, low angle, push in.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-2.7s",
           "action": "The family steps through the gate."
         },
         {
-          "t": "3-6s",
+          "t": "2.7-5.4s",
           "action": "The daughter points at the harp, curious."
         },
         {
-          "t": "6-10s",
+          "t": "5.4-9s",
           "action": "Whispers pass down the line, heads shaking, glances toward the narrator far away by the dais."
         }
       ],
       "sfx": "whispers, footsteps",
       "storyboard": "storyboard/beat08.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "e9c2b26e-8598-4bc6-a9ee-81e82e71e2cf",
       "keyframe_candidates": [
         "e9c2b26e-8598-4bc6-a9ee-81e82e71e2cf"
       ],
-      "vo_job": "b47b6f23-73a2-422b-9ea2-c0b33116155f"
+      "vo_job": "b47b6f23-73a2-422b-9ea2-c0b33116155f",
+      "vo_duration": 7.3
     },
     {
       "id": "S09",
       "route": "keyframe",
-      "duration": 10,
+      "duration": 11,
       "assets": [
         "narrator",
         "harp",
@@ -428,34 +436,35 @@
       "camera": "Close-up, eye level, handheld.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-3.3s",
           "action": "He carefully threads the glowing string at the tuning pin."
         },
         {
-          "t": "3-4.5s",
+          "t": "3.3-5s",
           "action": "PING - the string whips across his nose; head snaps back."
         },
         {
-          "t": "4.5-7s",
+          "t": "5-7.7s",
           "action": "His gown snags on a pedal as he flails."
         },
         {
-          "t": "7-10s",
+          "t": "7.7-11s",
           "action": "He falls flat on his face on the stone."
         }
       ],
       "sfx": "string ping, thud, crowd gasp",
       "storyboard": "storyboard/beat09.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "2d08089b-4128-4a32-b9ba-a42903dfc021",
       "keyframe_candidates": [
         "2d08089b-4128-4a32-b9ba-a42903dfc021"
       ],
-      "vo_job": "9ea37329-f3a9-442c-b706-a189774782fc"
+      "vo_job": "9ea37329-f3a9-442c-b706-a189774782fc",
+      "vo_duration": 9.65
     },
     {
       "id": "S10",
       "route": "keyframe",
-      "duration": 8,
+      "duration": 7,
       "assets": [
         "narrator",
         "harp",
@@ -467,26 +476,27 @@
       "camera": "Medium shot, eye level, rack focus from his hands to the fading gate.",
       "beats": [
         {
-          "t": "0-4s",
+          "t": "0-3.5s",
           "action": "Concentrating, tongue in the corner of his mouth, he secures one string; small relieved breath."
         },
         {
-          "t": "4-8s",
+          "t": "3.5-7s",
           "action": "Focus pulls back to the gate dissolving into bright mist."
         }
       ],
       "sfx": "soft magical shimmer",
       "storyboard": "storyboard/beat10.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "42c092a8-cb01-45c3-a3b2-51a9a6d4ba25",
       "keyframe_candidates": [
         "42c092a8-cb01-45c3-a3b2-51a9a6d4ba25"
       ],
-      "vo_job": "2cea971b-0e7c-4279-a1c1-80da7068071f"
+      "vo_job": "2d9eddef-44d5-4289-bad9-a46104ebd07f",
+      "vo_duration": 6.0
     },
     {
       "id": "S11",
       "route": "keyframe",
-      "duration": 7,
+      "duration": 9,
       "assets": [
         "narrator",
         "harpist",
@@ -498,21 +508,22 @@
       "camera": "Close-up, high angle, hold.",
       "beats": [
         {
-          "t": "0-3s",
+          "t": "0-3.9s",
           "action": "The harpist looks up, then down at him."
         },
         {
-          "t": "3-7s",
+          "t": "3.9-9s",
           "action": "He reaches for the harp; his fingers break into drifting motes of light."
         }
       ],
       "sfx": "rising shimmer, faint heartbeat",
       "storyboard": "storyboard/beat11.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "3c00e2e0-f146-4c7c-893a-2889a8563014",
       "keyframe_candidates": [
         "3c00e2e0-f146-4c7c-893a-2889a8563014"
       ],
-      "vo_job": "0c041691-bc56-464e-ad48-28a05fb60d23"
+      "vo_job": "0c041691-bc56-464e-ad48-28a05fb60d23",
+      "vo_duration": 7.12
     },
     {
       "id": "S12",
@@ -539,16 +550,17 @@
       ],
       "sfx": "heartbeat getting louder",
       "storyboard": "storyboard/beat12.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "a712feb1-1e01-4611-95ac-dce4ef457570",
       "keyframe_candidates": [
         "a712feb1-1e01-4611-95ac-dce4ef457570"
       ],
-      "vo_job": "a1460826-0acf-4b86-942a-56e849550f4a"
+      "vo_job": "05907526-f527-450a-862b-9e7639926cf5",
+      "vo_duration": 5.0
     },
     {
       "id": "S13",
       "route": "keyframe",
-      "duration": 6,
+      "duration": 8,
       "assets": [
         "narrator",
         "surgeon",
@@ -559,21 +571,22 @@
       "camera": "Two shot, eye level, static.",
       "beats": [
         {
-          "t": "0-2s",
+          "t": "0-2.7s",
           "action": "He snaps upright with a gasp, yanking the oxygen mask to his chin, IV line swinging."
         },
         {
-          "t": "2-6s",
+          "t": "2.7-8s",
           "action": "The surgeon smiles warmly and nods at him."
         }
       ],
       "sfx": "heart monitor beeps, gasp",
       "storyboard": "storyboard/beat13.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "9b90e4d0-9b91-445f-b1d2-dc6130e6fef3",
       "keyframe_candidates": [
         "9b90e4d0-9b91-445f-b1d2-dc6130e6fef3"
       ],
-      "vo_job": "cba77eb4-c620-4127-8303-7783ca6ff2df"
+      "vo_job": "a6212c3e-eccd-4570-be4e-a1005728f1e5",
+      "vo_duration": 6.4
     },
     {
       "id": "S14",
@@ -599,16 +612,17 @@
       ],
       "sfx": "phone taps, monitor beeps",
       "storyboard": "storyboard/beat14.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1",
       "keyframe_candidates": [
         "cc4d005a-1b6f-4fce-8069-1e0e3e3bdee1"
       ],
-      "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246"
+      "vo_job": "ab524efb-f639-4118-86b1-37ceeb254246",
+      "vo_duration": 5.25
     },
     {
       "id": "S15",
       "route": "keyframe",
-      "duration": 8,
+      "duration": 6,
       "assets": [
         "narrator",
         "hospital"
@@ -618,21 +632,22 @@
       "camera": "Medium close-up, slow push in, hold.",
       "beats": [
         {
-          "t": "0-4s",
+          "t": "0-3s",
           "action": "His eyes scan the phone screen, then steady."
         },
         {
-          "t": "4-8s",
+          "t": "3-6s",
           "action": "A small determined smile; he settles back into the pillow."
         }
       ],
       "sfx": "soft warm room tone",
       "storyboard": "storyboard/beat15.jpg",
-      "keyframe_media_id": null,
+      "keyframe_media_id": "ed8260bb-0948-4314-96dc-c7e8387e2714",
       "keyframe_candidates": [
         "ed8260bb-0948-4314-96dc-c7e8387e2714"
       ],
-      "vo_job": "26e698ef-88ca-4202-be98-560bbc950709"
+      "vo_job": "26e698ef-88ca-4202-be98-560bbc950709",
+      "vo_duration": 4.45
     }
   ],
   "format": "narrated short - first-person narrator VO over the whole film, dialogue lines read in VO (no lip sync), burned subtitles",
@@ -650,22 +665,5 @@
     "model": "seed_audio",
     "source": "channel sample I_Could_See_It_In_His_Eyes_.mp3"
   },
-  "vo_retakes_pending": {
-    "S07": [
-      "80094340-cb27-4c23-94b9-e90d7aee4567",
-      "bc0314f2-b150-40ff-b175-4d4966144458"
-    ],
-    "S10": [
-      "2d9eddef-44d5-4289-bad9-a46104ebd07f",
-      "fa6737d0-2607-405b-87cf-399c4ea69afe"
-    ],
-    "S12": [
-      "78153aa4-aa64-448b-a455-79ea10c6020d",
-      "05907526-f527-450a-862b-9e7639926cf5"
-    ],
-    "S13": [
-      "a6212c3e-eccd-4570-be4e-a1005728f1e5",
-      "0e4fb6a7-1662-43c3-a130-8d02c2809d9e"
-    ]
-  }
+  "vo_post": "compress pauses >0.45s to 0.35s (silenceremove), trim edges; narration mixed over shot SFX, SFX ducked"
 }
