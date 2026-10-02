@@ -1004,7 +1004,21 @@
     "resolution": "720p",
     "upscale_1080p_job": "ddf5fb21-ff80-4887-8508-ce3617499e25",
     "notes": "narration is master: 4 continuous chunks (S01-06, S07-09, S10-12, S13-15), cuts placed 0.25s before each shot's first word, shots retimed 0.74-1.25x, push/pull + whip pans, white flash into S13, no subtitles",
-    "script": "pipeline/sandbox_recut_vo.py + projects/heaven-harp/recut.json"
+    "script": "pipeline/sandbox_recut_vo.py + projects/heaven-harp/recut.json",
+    "upscale_1080p_result": "https://d8j0ntlcm91z4.cloudfront.net/user_3IONVXBVgcI0lK1OKjd41czEVtU/hf_20261002_013302_ddf5fb21-ff80-4887-8508-ce3617499e25.mp4"
   },
-  "audio_policy": "voiceover only - no SFX, no music (user request); clip audio is muted in the edit"
+  "audio_policy": "voiceover only - no SFX, no music (user request); clip audio is muted in the edit",
+  "edit_v4": {
+    "media_id": "90b9b5aa-6a38-4790-8244-492b8fce4605",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IONVXBVgcI0lK1OKjd41czEVtU/90b9b5aa-6a38-4790-8244-492b8fce4605.mp4",
+    "duration": 97.6,
+    "resolution": "720p",
+    "audio": "voice-over only",
+    "checks": {
+      "words": 294,
+      "hard_cuts": 0
+    },
+    "upscale_1080p_job": "ce5e1a4f-ee4d-4250-88e4-aed1f36ab752",
+    "script": "pipeline/sandbox_flow_cut.py + projects/heaven-harp/flow.json"
+  }
 }
