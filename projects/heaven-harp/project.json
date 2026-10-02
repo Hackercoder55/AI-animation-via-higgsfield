@@ -1019,6 +1019,12 @@
       "hard_cuts": 0
     },
     "upscale_1080p_job": "ce5e1a4f-ee4d-4250-88e4-aed1f36ab752",
-    "script": "pipeline/sandbox_flow_cut.py + projects/heaven-harp/flow.json"
+    "script": "pipeline/sandbox_flow_cut.py + projects/heaven-harp/flow.json",
+    "upscale_1080p_result": "https://d8j0ntlcm91z4.cloudfront.net/user_3IONVXBVgcI0lK1OKjd41czEVtU/hf_20261002_024210_ce5e1a4f-ee4d-4250-88e4-aed1f36ab752.mp4",
+    "delivered_1080p": {
+      "width": 1080,
+      "height": 1920,
+      "duration": 97.6
+    }
   }
 }
